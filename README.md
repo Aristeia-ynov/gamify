@@ -1,2 +1,2 @@
-# gamify
-Streaming Platform
+# GameFy
+ Live Streaming Plateform
