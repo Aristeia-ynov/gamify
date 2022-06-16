@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Scantist
 
 # Controls when the workflow will run
 on:
@@ -27,5 +27,4 @@ jobs:
       - name: Upload to Scantist 
         env: # Setting the Token
           SCANTISTTOKEN: ${{secrets.SCANTISTTOKEN }}
-          #SCANTIST_IMPORT_URL : "https://192.xxx.xxx.xx:8237/ci-scan/" #add this line if you are setting up on a dedicated scantist server
         run: java -jar scantist-bom-detect.jar
