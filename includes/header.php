@@ -1,6 +1,3 @@
-<?php
-require('config.php');
-?>
 <header id="beeteam368-site-header"
         class="beeteam368-site-header beeteam368-site-header-control flex-row-control beeteam368-h-poppy">
     <div class="beeteam368-top-menu">
@@ -28,7 +25,6 @@ require('config.php');
                         <form action="search.php" method="get" class="beeteam368-searchform" style="margin: auto">
                             <input id="beeteam368-searchtext"
                                    class="beeteam368-searchtext beeteam368-searchtext-control seach-area" autocomplete="off"
-                                   class="beeteam368-searchtext beeteam368-searchtext-control" autocomplete="off"
                                    type="text" placeholder="Search ..." name="s" value="">
                             <span class="beetam368-back-focus beetam368-back-focus-control flex-row-control flex-vertical-middle flex-row-center"><i
                                         class="fas fa-arrow-left"></i></span>
@@ -59,7 +55,6 @@ require('config.php');
                                     <h5 class="beeteam368-sg-new-posts-heading sg-heading-default">Search</h5>
                                     <h5 class="beeteam368-sg-new-posts-heading sg-heading-dynamic">Search</h5>
                                 </div>
-
                                 <div class="beeteam368-sg-new-posts beeteam368-live-search-control">
                                     <h5 class="beeteam368-sg-new-posts-heading sg-heading-default">Do Not Miss</h5>
                                     <h5 class="beeteam368-sg-new-posts-heading sg-heading-dynamic">Search
@@ -220,49 +215,6 @@ require('config.php');
                         <li id="menu-item-22"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22">
                             <a href="#"><span class="lvl1-counter">Stream</span></a>
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-19 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21">
-                            <a href="https://vm.beeteam368.net/"><span class="lvl1-counter">Home</span></a>
-                            <ul class="sub-menu beeteam368-megamenu-sub">
-                                <li id="menu-item-59"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-19 current_page_item menu-item-59">
-                                    <a href="https://vm.beeteam368.net/">Home Page 1</a></li>
-                                <li id="menu-item-64"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a
-                                            href="https://vm.beeteam368.net/home-page-demo-2/">Home Page 2</a></li>
-                                <li id="menu-item-63"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a
-                                            href="https://vm.beeteam368.net/home-page-demo-3/">Home Page 3</a></li>
-                                <li id="menu-item-62"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a
-                                            href="https://vm.beeteam368.net/home-page-demo-4/">Home Page 4</a></li>
-                                <li id="menu-item-61"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a
-                                            href="https://vm.beeteam368.net/home-page-demo-5/">Home Page 5</a></li>
-                                <li id="menu-item-1241"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1241">
-                                    <a href="#">Side Menu</a>
-                                    <ul class="sub-menu beeteam368-megamenu-sub">
-                                        <li id="menu-item-60"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60">
-                                            <a href="https://vm.beeteam368.net/home-page-demo-6/">Left (Always Open)</a>
-                                        </li>
-                                        <li id="menu-item-1250"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1250">
-                                            <a href="https://vm.beeteam368.net/home-page-demo-7/">Left (Close)</a></li>
-                                        <li id="menu-item-1249"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1249">
-                                            <a href="https://vm.beeteam368.net/home-page-demo-8/">Right (Always
-                                                Open)</a></li>
-                                        <li id="menu-item-1248"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1248">
-                                            <a href="https://vm.beeteam368.net/home-page-demo-9/">Right (Close)</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-22"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22">
-                            <a href="#"><span class="lvl1-counter">Video</span></a>
                             <ul class="sub-menu beeteam368-megamenu-sub">
                                 <li id="menu-item-1090"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1090">
@@ -395,7 +347,6 @@ require('config.php');
                         <li id="menu-item-23"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-23">
                             <a href="#"><span class="lvl1-counter">Video</span></a>
-                            <a href="#"><span class="lvl1-counter">Audio</span></a>
                             <ul class="sub-menu beeteam368-megamenu-sub">
                                 <li id="menu-item-1093"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1093">
@@ -438,7 +389,6 @@ require('config.php');
                         <li id="menu-item-65"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-65">
                             <a href="#"><span class="lvl1-counter">Events</span></a>
-                            <a href="#"><span class="lvl1-counter">Sell Media</span></a>
                             <ul class="sub-menu beeteam368-megamenu-sub">
                                 <li id="menu-item-2090"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2090">
@@ -476,7 +426,6 @@ require('config.php');
                         <li id="menu-item-2579"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2579">
                             <a href="https://vm.beeteam368.net/shop/"><span class="lvl1-counter">Blog</span></a>
-                            <a href="https://vm.beeteam368.net/shop/"><span class="lvl1-counter">Shop</span></a>
                             <ul class="sub-menu beeteam368-megamenu-sub">
                                 <li id="menu-item-2639"
                                     class="menu-item menu-item-type-post_type menu-item-object-vidmov_video menu-item-2639">
@@ -535,222 +484,7 @@ require('config.php');
                                 </li>
                             </ul>
                         </li>
-
-                            <li id="menu-item-67"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-67">
-                            <a href="#"><span class="lvl1-counter">Elements</span></a>
-                            <ul class="sub-menu beeteam368-megamenu-sub">
-                                <li id="menu-item-43"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-43">
-                                    <a href="#">Header</a>
-                                    <ul class="sub-menu beeteam368-megamenu-sub">
-                                        <li id="menu-item-41"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41">
-                                            <a href="https://vm.beeteam368.net/header-classic/">Header – Classic</a>
-                                        </li>
-                                        <li id="menu-item-42"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42">
-                                            <a href="https://vm.beeteam368.net/header-poppy/">Header – Poppy</a></li>
-                                        <li id="menu-item-40"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40">
-                                            <a href="https://vm.beeteam368.net/header-alyssa/">Header – Alyssa</a></li>
-                                        <li id="menu-item-39"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39">
-                                            <a href="https://vm.beeteam368.net/header-leilani/">Header – Leilani</a>
-                                        </li>
-                                        <li id="menu-item-38"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38">
-                                            <a href="https://vm.beeteam368.net/header-marguerite/">Header –
-                                                Marguerite</a></li>
-                                        <li id="menu-item-37"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37">
-                                            <a href="https://vm.beeteam368.net/header-rose/">Header – Rose</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-68"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-68">
-                                    <a href="#">Post Layouts</a>
-                                    <ul class="sub-menu beeteam368-megamenu-sub">
-                                        <li id="menu-item-1541"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1541">
-                                            <a href="https://vm.beeteam368.net/layout-default/">Layout – Default</a>
-                                        </li>
-                                        <li id="menu-item-1542"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1542">
-                                            <a href="https://vm.beeteam368.net/layout-alyssa/">Layout – Alyssa</a></li>
-                                        <li id="menu-item-1540"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1540">
-                                            <a href="https://vm.beeteam368.net/layout-leilani/">Layout – Leilani</a>
-                                        </li>
-                                        <li id="menu-item-1539"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1539">
-                                            <a href="https://vm.beeteam368.net/layout-lily/">Layout – Lily</a></li>
-                                        <li id="menu-item-1538"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1538">
-                                            <a href="https://vm.beeteam368.net/layout-marguerite/">Layout –
-                                                Marguerite</a></li>
-                                        <li id="menu-item-1536"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1536">
-                                            <a href="https://vm.beeteam368.net/layout-rose/">Layout – Rose</a></li>
-                                        <li id="menu-item-1537"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1537">
-                                            <a href="https://vm.beeteam368.net/layout-orchid/">Layout – Orchid</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-69"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-69">
-                                    <a href="#">Pagination</a>
-                                    <ul class="sub-menu beeteam368-megamenu-sub">
-                                        <li id="menu-item-1668"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1668">
-                                            <a href="https://vm.beeteam368.net/loadmore-button/">LoadMore Button</a>
-                                        </li>
-                                        <li id="menu-item-1669"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1669">
-                                            <a href="https://vm.beeteam368.net/infinite-scroll/">Infinite Scroll</a>
-                                        </li>
-                                        <li id="menu-item-1670"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-vidmov_video_category menu-item-1670">
-                                            <a href="https://vm.beeteam368.net/video-category/sports/">Page Numbers</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-73"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-73">
-                                    <a href="#">Single Posts</a>
-                                    <ul class="sub-menu beeteam368-megamenu-sub">
-                                        <li id="menu-item-1780"
-                                            class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1780">
-                                            <a href="https://vm.beeteam368.net/kind-of-blue-portos-azulejo-facades-in-pictures/">Standard
-                                                Post</a></li>
-                                        <li id="menu-item-1779"
-                                            class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1779">
-                                            <a href="https://vm.beeteam368.net/generation-rent-why-ill-never-live-in-a-place-i-can-hang-the-washing/">Gallery
-                                                Post</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-71"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-71">
-                                    <a href="#">Slider Layouts</a>
-                                    <ul class="sub-menu beeteam368-megamenu-sub">
-                                        <li id="menu-item-1611"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1611">
-                                            <a href="https://vm.beeteam368.net/slider-lily/">Slider – Lily</a></li>
-                                        <li id="menu-item-1612"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1612">
-                                            <a href="https://vm.beeteam368.net/slider-alyssa/">Slider – Alyssa</a></li>
-                                        <li id="menu-item-1609"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1609">
-                                            <a href="https://vm.beeteam368.net/slider-rose/">Slider – Rose</a></li>
-                                        <li id="menu-item-1610"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1610">
-                                            <a href="https://vm.beeteam368.net/slider-orchid/">Slider – Orchid</a></li>
-                                        <li id="menu-item-1613"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1613">
-                                            <a href="https://vm.beeteam368.net/slider-pro-sunflower/">Slider – [Pro]
-                                                Sunflower</a></li>
-                                        <li id="menu-item-1614"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1614">
-                                            <a href="https://vm.beeteam368.net/slider-pro-cyclamen/">Slider – [Pro]
-                                                Cyclamen</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-1797"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1797">
-                                    <a href="#">Cast &amp; Other Variations</a>
-                                    <ul class="sub-menu beeteam368-megamenu-sub">
-                                        <li id="menu-item-1799"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1799">
-                                            <a href="https://vm.beeteam368.net/cast/">Archive</a></li>
-                                        <li id="menu-item-1798"
-                                            class="menu-item menu-item-type-post_type menu-item-object-vidmov_cast menu-item-1798">
-                                            <a href="https://vm.beeteam368.net/cast/marie-wagenman/">Single</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-1809"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1809">
-                                    <a href="#">Sidebar</a>
-                                    <ul class="sub-menu beeteam368-megamenu-sub">
-                                        <li id="menu-item-1810"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1810">
-                                            <a href="https://vm.beeteam368.net/sidebar-right/">Sidebar – Right</a></li>
-                                        <li id="menu-item-1811"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1811">
-                                            <a href="https://vm.beeteam368.net/sidebar-left/">Sidebar – Left</a></li>
-                                        <li id="menu-item-1812"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1812">
-                                            <a href="https://vm.beeteam368.net/sidebar-hidden/">Sidebar – Hidden</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-74"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-74">
-                            <a href="#"><span class="lvl1-counter">Channel</span></a>
-                            <ul class="sub-menu beeteam368-megamenu-sub">
-                                <li id="menu-item-75"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/">Member Profile</a>
-                                </li>
-                                <li id="menu-item-1086"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1086"><a
-                                            href="https://vm.beeteam368.net/member-list/">Member List</a></li>
-                                <li id="menu-item-1692"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1692"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/videos/">Videos
-                                        Tab</a></li>
-                                <li id="menu-item-1693"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1693"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/audios/">Audios
-                                        Tab</a></li>
-                                <li id="menu-item-1694"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1694"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/playlists/">Playlists
-                                        Tab</a></li>
-                                <li id="menu-item-1695"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1695"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/posts/">Posts
-                                        Tab</a></li>
-                                <li id="menu-item-1696"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1696"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/transfer_history/">Transfer
-                                        History Tab</a></li>
-                                <li id="menu-item-1697"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1697"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/subscriptions/">Subscriptions
-                                        Tab</a></li>
-                                <li id="menu-item-1698"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1698"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/watch_later/">Watch
-                                        Later Tab</a></li>
-                                <li id="menu-item-1699"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1699"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/notifications/">Notifications
-                                        Tab</a></li>
-                                <li id="menu-item-1700"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1700"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/history/">History
-                                        Tab</a></li>
-                                <li id="menu-item-1701"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1701"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/rated/">Rated
-                                        Tab</a></li>
-                                <li id="menu-item-1702"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1702"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/reacted/">Reacted
-                                        Tab</a></li>
-                                <li id="menu-item-1703"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1703"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/about/">About
-                                        Tab</a></li>
-                                <li id="menu-item-1704"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1704"><a
-                                            href="https://vm.beeteam368.net/channel/channel-id/1/channel-tab/discussion/">Discussion
-                                        Tab</a></li>
-                            </ul>
-                        </li>
-                <li id="menu-item-66"
+                        <li id="menu-item-66"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-66 beeteam368-megamenu beeteam368-megamenu-control ready-loaded">
                             <a href="#"><span class="lvl1-counter">Mega Menu</span></a>
                             <ul class="sub-menu beeteam368-megamenu-sub">
@@ -2671,12 +2405,6 @@ require('config.php');
                     } else {
                         $path = "https://secure.gravatar.com/avatar/83232f25bace98c04afdba2ef9eedd8d?s=61&d=mm&r=g";
                     }
-                    if ($_SESSION['image_path'] == null){
-                        $path = "https://secure.gravatar.com/avatar/83232f25bace98c04afdba2ef9eedd8d?s=61&d=mm&r=g";
-                    }
-                    else{
-                        $path = PATH_IMG . $_SESSION['image_path'];
-                    }
                     ?>
                     <div class="beeteam368-social-account-sub-login-nav site__col auto-width">
                         <div class="beeteam368-social-account-wrap flex-row-control">
@@ -2684,8 +2412,6 @@ require('config.php');
                                 <img alt="Author Avatar"
                                      src="<?php echo $path ?>"
                                      srcset="<?php echo $path ?>"
-                                     src="<?php echo $path?>"
-                                     srcset="<?php echo $path?>"
                                      class="author-avatar" style="width: 28px; height: 28px;"> <span
                                         class="tooltip-text">Click to open</span>
                                 <div class="beeteam368-icon-dropdown beeteam368-icon-dropdown-control">
@@ -2696,9 +2422,6 @@ require('config.php');
                                                  src="<?php echo $path ?>"
                                                  sizes="(max-width: 61px) 100vw, 61px"
                                                  srcset="<?php echo $path ?>"
-                                                 src="<?php echo $path?>"
-                                                 sizes="(max-width: 61px) 100vw, 61px"
-                                                 srcset="<?php echo $path?>"
                                                  class="author-avatar" width="61" height="61"> </a>
                                         <div class="author-avatar-name-wrap">
                                             <h4 class="author-avatar-name max-1line">
@@ -2706,7 +2429,6 @@ require('config.php');
                                                 <a href="#"
                                                    class="author-avatar-name-link"
                                                    title="<?php echo $_SESSION['username']; ?>">
-                                                   class="author-avatar-name-link" title="<?php echo $_SESSION['username']; ?>">
                                                     <i class="far fa-user-circle author-verified"></i><span><?php echo $_SESSION['username']; ?></span>
                                                 </a>
                                             </h4>

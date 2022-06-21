@@ -33,6 +33,7 @@ session_start();
 <div id="loader">
 
 </div>
+
 <section class="login-signup">
     <div class="container p-5" style="display: none" id="error-div">
         <div class="row no-gutters">

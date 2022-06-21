@@ -1,5 +1,6 @@
 (function($) {
 		"use strict";
+		
 	$(document).ready(function() {
 
 
@@ -7,17 +8,15 @@
 
     $('.dropdown-toggle-1').on('click', function(){
        $(this).parent().siblings().find('.dropdown-menu').hide();
-       $(this).next('.dropdown-menu').toggle();
+       $(this).next('.dropdown-menu').toggle(); 
     });
 
-  $(document).on('click', function(e)
-
+  $(document).on('click', function(e) 
   {
       var container = $(".dropdown-toggle-1");
 
       // if the target of the click isn't the container nor a descendant of the container
-      if (!container.is(e.target) && container.has(e.target).length === 0)
-
+      if (!container.is(e.target) && container.has(e.target).length === 0) 
       {
           container.next('.dropdown-menu').hide();
       }
@@ -25,8 +24,7 @@
 
   });
 
-// Drop Down Section Ends
-
+// Drop Down Section Ends 
 
 		// Side Bar Area Js
 		$('#sidebarCollapse').on('click', function() {
@@ -52,7 +50,10 @@
 
     // Nice Select Active js
     $('.select').niceSelect();
-    //  Nice Select Ends
+    //  Nice Select Ends    
 
 })(jQuery);
+
+
+  
 

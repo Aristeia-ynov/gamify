@@ -49,13 +49,6 @@ $(function () {
         } else {
             $(this).addClass('active-item');
         }
-    $('.beeteam368-is-login-member').on('click', null, null, function (){
-       if ($(this).hasClass('active-item')){
-           $(this).removeClass('active-item');
-       }
-       else{
-           $(this).addClass('active-item');
-       }
     });
     // slide(0, 0);
     // function slide(count, flag ) {

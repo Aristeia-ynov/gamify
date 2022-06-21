@@ -36,7 +36,7 @@ $number = preg_match('@[0-9]@', $password); // Checks if password has a number
 $specialChars = preg_match('@[^\w]@', $password); // Checks if password has a special character
 if (!$uppercase || !$lowercase || !$number ||
     !$specialChars || strlen($password) < $lengthPassword) {
-    $json['error'] = "Your password must be " . $lengthPassword . " characters long and must contain at least one uppercase, one lowercase, one number
+    $json['error'] = "Your password must be " . $lengthPassword . " characters long and must contain at least one uppercase, one lowercase, one number 
     and one special character!";
     die(json_encode($json));
 }
@@ -45,6 +45,7 @@ if ($password != $confirm) {
     $json['error'] = "Passwords don't match!";
     die(json_encode($json));
 }
+
 if (isset($captchaResponse) && !empty($captchaResponse)) { // Check if Captcha is checked
     //Site secret key
     $secret = "6Lcb2w0gAAAAABsJbFlp9zO2wpCZeHAbm-tNlMzG";
@@ -59,20 +60,6 @@ if (isset($captchaResponse) && !empty($captchaResponse)) { // Check if Captcha i
     $json['error'] = "Please check the Captcha checkbox!";
     die(json_encode($json));
 }
-//if (isset($captchaResponse) && !empty($captchaResponse)) { // Check if Captcha is checked
-//    //Site secret key
-//    $secret = "6Lcb2w0gAAAAABsJbFlp9zO2wpCZeHAbm-tNlMzG";
-//    //Get verify response data
-//    $verifyResponse = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secret . "&response=" . $captchaResponse);
-//    $responseData = json_decode($verifyResponse);
-//    if (!$responseData->success) { // If response is not success
-//        $json['error'] = "Robot verification failed, please try again!";
-//        die(json_encode($json));
-//    }
-//} else {
-//    $json['error'] = "Please check the Captcha checkbox!";
-//    die(json_encode($json));
-//}
 
 $salt = saltGenerator();
 $password = $password . $salt;

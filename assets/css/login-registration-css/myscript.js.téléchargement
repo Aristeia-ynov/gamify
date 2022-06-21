@@ -1,13 +1,12 @@
 (function($) {
     "use strict";
-
+    
   $(document).ready(function() {
 
 
 function disablekey()
 {
- document.onkeydown = function (e)
-
+ document.onkeydown = function (e) 
  {
   return false;
  }
@@ -15,8 +14,7 @@ function disablekey()
 
 function enablekey()
 {
- document.onkeydown = function (e)
-
+ document.onkeydown = function (e) 
  {
   return true;
  }
@@ -105,8 +103,7 @@ function enablekey()
             $('#t-txt').removeClass('d-none');
           }
           $('#t-id').val($(this).data('id'));
-          $('#t-title').val(data);
-
+          $('#t-title').val(data);          
         });
 
       $(document).on('change','.vendor-droplinks',function (e) {
@@ -141,7 +138,7 @@ if(admin_loader == 1)
             $('.submit-loader').hide();
           }
       }
-
+      
     });
 });
 
@@ -211,6 +208,7 @@ if(admin_loader == 1)
             $('.submit-loader').hide();
           }
       }
+      
     });
 });
 
@@ -234,6 +232,7 @@ if(admin_loader == 1)
             $('.submit-loader').hide();
           }
       }
+      
     });
 });
 
@@ -257,6 +256,7 @@ if(admin_loader == 1)
             $('.submit-loader').hide();
           }
       }
+      
     });
 });
 
@@ -355,6 +355,8 @@ if(admin_loader == 1)
           {
             $('.submit-loader').hide();
           }
+
+              
          }
         });
         return false;
@@ -382,6 +384,8 @@ if(admin_loader == 1)
           {
             $('.submit-loader').hide();
           }
+
+              
          }
         });
 
@@ -400,6 +404,7 @@ if(admin_loader == 1)
           method: "GET",
           data: { id : id, title: title, text : text }
         });
+ 
       }
 
 }
@@ -490,8 +495,8 @@ $('button.addProductSubmit-btn').prop('disabled',true);
      }
 
     });
-});
 
+});  
 
 // NORMAL FORM ENDS
 
@@ -533,6 +538,7 @@ $(document).on('submit','#trackform',function(e){
             $('#trackform .alert-success p').html(data);
             $('#trackform input , #trackform select , #trackform textarea').eq(1).focus();
             $('#track-load').load($('#track-load').data('href'));
+            
           }
   if(admin_loader == 1)
   {
@@ -543,8 +549,8 @@ $(document).on('submit','#trackform',function(e){
        }
 
       });
-});
 
+});  
 
 // NORMAL FORM ENDS
 
@@ -592,8 +598,7 @@ $(document).on('submit','#messageform',function(e){
           $('button.mybtn1').prop('disabled',false);
        }
       });
-});
-
+});  
 
 // MESSAGE FORM ENDS
 
@@ -637,8 +642,8 @@ $("#loginform").on('submit',function(e){
        }
 
       });
-});
 
+});  
 
 
 // LOGIN FORM ENDS
@@ -683,8 +688,8 @@ $("#forgotform").on('submit',function(e){
        }
 
       });
-});
 
+});  
 
 
 // FORGOT FORM ENDS
@@ -699,8 +704,7 @@ $(document).ready(function(){
                     success:function(data){
                         $("#user-notf-count").html(data);
                       }
-              });
-
+              }); 
     }, 5000);
 });
 
@@ -726,8 +730,7 @@ $(document).ready(function(){
                     success:function(data){
                         $("#order-notf-count").html(data);
                       }
-              });
-
+              }); 
     }, 5000);
 });
 
@@ -753,8 +756,7 @@ $(document).ready(function(){
                     success:function(data){
                         $("#product-notf-count").html(data);
                       }
-              });
-
+              }); 
     }, 5000);
 });
 
@@ -780,8 +782,7 @@ $(document).ready(function(){
                     success:function(data){
                         $("#conv-notf-count").html(data);
                       }
-              });
-
+              }); 
     }, 5000);
 });
 
@@ -834,8 +835,7 @@ $(document).on('click','.send',function(){
                     $.notify("Message Sent !!","success");
                   $('.close').click();
             }
-        });
-
+        });          
           return false;
         });
 
@@ -876,8 +876,8 @@ $(document).on('click','.send',function(){
         $.notify("Email Sent !!","success");
         $('.close').click();
             }
-        });
 
+        });          
           return false;
         });
 // SEND EMAIL SECTION ENDS
@@ -929,4 +929,3 @@ $(document).on('click','.track-delete',function(){
 
 
 })(jQuery);
-

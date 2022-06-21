@@ -31,8 +31,7 @@
         <div class="site__container main__container-control site__container-fluid">
             <div class="site__row">
                 <div class="site__col">
-                    Copyright © 2022. Created by Aristeia. 
-                </div>
+                    Copyright © 2022. Created by Aristeia. </div>
             </div>
         </div>
     </div>
