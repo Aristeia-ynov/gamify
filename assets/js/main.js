@@ -2,10 +2,7 @@ $(function () {
     let open_close_button = $('.open-close');
     let open_close_button_mobile = $('.open-close-bis');
     let sub_menu_mobile = $('ul.menu-items-lyt-control > li');
-<<<<<<< HEAD
     let loader = "<img src='assets/images/loader_dark.gif' width='100px'>";
-=======
->>>>>>> main
     open_close_button.on('click', null, null, function () {
         if (open_close_button.hasClass('open')) {
             open_close_button.removeClass('open');
@@ -46,14 +43,12 @@ $(function () {
         event.preventDefault();
     });
 
-<<<<<<< HEAD
     $('.beeteam368-is-login-member').on('click', null, null, function () {
         if ($(this).hasClass('active-item')) {
             $(this).removeClass('active-item');
         } else {
             $(this).addClass('active-item');
         }
-=======
     $('.beeteam368-is-login-member').on('click', null, null, function (){
        if ($(this).hasClass('active-item')){
            $(this).removeClass('active-item');
@@ -61,7 +56,6 @@ $(function () {
        else{
            $(this).addClass('active-item');
        }
->>>>>>> main
     });
     // slide(0, 0);
     // function slide(count, flag ) {
@@ -96,7 +90,6 @@ $(function () {
     //         count--;
     //     }
     // } TODO improve this function
-<<<<<<< HEAD
 
     $('.load-more').on('click', null, null, function () {
         let count = $(this).data('count');
@@ -181,6 +174,3 @@ $(function () {
 
     });
 });
-=======
-});
->>>>>>> main
