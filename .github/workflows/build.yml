@@ -1,12 +1,14 @@
-name: Build
+name: SonarCloud Analysis
 on:
+  schedule:
+    - cron: "0 0 * * *" # every day  At 12:00 AM
   push:
-    branches:
-      - master
+    branches: [ "main", "Backup", "Development" ]
   pull_request:
-    types: [opened, synchronize, reopened]
+    branches: [ "main", "Backup", "Development" ]
   
   workflow_dispatch:
+  
 jobs:
   sonarcloud:
     name: SonarCloud
