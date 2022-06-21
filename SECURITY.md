@@ -1,8 +1,8 @@
 # Security Policy
 
-## Supported Versions
+## Supported Versions of php
 
-Current dev versions
+Current dev versions 
 
 | Version | Supported          |
 | ------- | ------------------ |
