@@ -18,12 +18,17 @@
 ```bash
 
 .
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
 ├── SECURITY.md
 ├── ajax
+│   ├── follow.php
+│   ├── load-more.php
 │   ├── login.php
-│   └── register.php
+│   ├── register.php
+│   └── search.php
 ├── assets
 │   ├── css
 │   │   ├── login-registration-css
@@ -67,6 +72,8 @@
 │   │       ├── side-menu.css
 │   │       └── style.css
 │   ├── images
+│   │   ├── loader_dark.gif
+│   │   ├── loader_dark_moder.gif
 │   │   ├── mainIcon.png
 │   │   ├── mainLogo.png
 │   │   ├── secondLogo.png
@@ -80,6 +87,7 @@
 │       └── vendor
 │           └── swiper.js
 ├── includes
+│   ├── config.php
 │   ├── footer.php
 │   ├── global_functions.php
 │   ├── head.php
@@ -87,11 +95,16 @@
 │   ├── scripts.php
 │   └── sidebar.php
 ├── index.php
+├── list.md
+├── list2.md
 ├── login-registration.php
 ├── logout.php
+├── pull_request_template.md
 ├── search.php
-└── sonar-project.properties
+├── sonar-project.properties
+└── stream.php
+
 
 ```
 
-11 directories, 63 files
+11 directories, 74 files
