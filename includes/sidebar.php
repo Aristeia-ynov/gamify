@@ -73,22 +73,18 @@
                                 <a href="https://vm.beeteam368.net/series-category/tv-shows/">TV Shows</a></li>
                         </ul>
                         <?php
-<<<<<<< HEAD
                         if (isset($_SESSION['id'])) {
                             ?>
                             <h5 class="h5 widget-title flex-row-control flex-vertical-middle layer-hidden"
                                 style="display: none; margin: 0 0 10px 0">
-=======
                             if (isset($_SESSION['id'])){
                         ?>
                         <h5 class="h5 widget-title flex-row-control flex-vertical-middle layer-hidden" style="display: none; margin: 0 0 10px 0">
->>>>>>> main
                                 <span class="widget-title-wrap">Followed Channels:
                                     <span class="wg-line" style="height: 1px; width: 100%;">
 
                                     </span>
                                 </span>
-<<<<<<< HEAD
                             </h5>
                             <div id="follow-area">
                                 <?php
@@ -165,7 +161,6 @@
                                             data-count="0">
                                         <span class="loadmore-text loadmore-text-control">Load More</span>
                                         <span class="loadmore-loading">
-=======
                         </h5>
                         <article class="post-item site__col flex-row-control" style="width: var(--width__side-menu-hide);padding: 10px 0;">
                             <div class="post-item-wrap" style="width: 100%;">
@@ -226,24 +221,20 @@
                             <button class="loadmore-btn loadmore-btn-control ">
                                 <span class="loadmore-text loadmore-text-control">Load More</span>
                                 <span class="loadmore-loading">
->>>>>>> main
 <span class="loadmore-indicator">
 <svg><polyline class="lm-back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline> <polyline class="lm-front"
                                                                                           points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline></svg>
 </span>
 </span>
-<<<<<<< HEAD
                                     </button>
                                 </nav>
                                 <?php
                             }
                         }
-=======
                             </button>
                         </nav>
                         <?php
                             }
->>>>>>> main
                         ?>
                     </div>
                     <div class="sidemenu-sidebar side-row" style="display:none;">
@@ -256,7 +247,6 @@
                                     </span>
                                 </span>
                             </h5>
-<<<<<<< HEAD
                             <div id="recommend-area">
                                 <?php
                                 if (isset($_SESSION['id'])) {
@@ -382,7 +372,6 @@
                                     }
                                 }
                                 ?>
-=======
                             <div id="blog_wrapper_1715015991654711050"
                                  class="blog-wrapper global-blog-wrapper blog-wrapper-control flex-row-control site__row">
                                 <article class="post-item site__col flex-row-control">
@@ -410,7 +399,6 @@
                                         </div>
                                     </div>
                                 </article>
->>>>>>> main
                             </div>
                             <script>
                                 vidmov_jav_js_object['blog_wrapper_1715015991654711050_params'] = {"beeteam368_author_query_order_id": "most_subscriptions"};
@@ -448,7 +436,6 @@
                                     "login__not_in": []
                                 };
                             </script>
-<<<<<<< HEAD
                             <?php
                             if ($counter >= 10) {
                                 ?>
@@ -461,7 +448,6 @@
                                             data-count="0">
                                         <span class="loadmore-text loadmore-text-control">Load More</span>
                                         <span class="loadmore-loading">
-=======
                             <nav class="beeteam368-pagination pagination-loadmore beeteam368-pagination flex-row-control flex-row-center flex-vertical-middle"
                                  data-paged="1" data-template="template-parts/archive/item"
                                  data-style="marguerite-author-widget"
@@ -470,22 +456,18 @@
                                 <button class="loadmore-btn loadmore-btn-control ">
                                     <span class="loadmore-text loadmore-text-control">Load More</span>
                                     <span class="loadmore-loading">
->>>>>>> main
 <span class="loadmore-indicator">
 <svg><polyline class="lm-back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline> <polyline class="lm-front"
                                                                                           points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline></svg>
 </span>
 </span>
-<<<<<<< HEAD
                                     </button>
                                 </nav>
                                 <?php
                             }
                             ?>
-=======
                                 </button>
                             </nav>
->>>>>>> main
                         </div>
                     </div>
                 </div>
@@ -503,8 +485,5 @@
         </div>
         <div class="os-scrollbar-corner"></div>
     </div>
-<<<<<<< HEAD
 </div>
-=======
 </div>
->>>>>>> main
