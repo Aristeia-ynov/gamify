@@ -17,6 +17,7 @@
 
 # Folder Structure
 
+```bash
 .
 ├── LICENSE
 ├── README.md
@@ -93,5 +94,7 @@
 ├── logout.php
 ├── search.php
 └── sonar-project.properties
+
+```
 
 11 directories, 64 files
