@@ -1,24 +1,3 @@
-<?php
-require('config.php');
-?>
-<header id="beeteam368-site-header"
-        class="beeteam368-site-header beeteam368-site-header-control flex-row-control beeteam368-h-poppy">
-    <div class="beeteam368-top-menu">
-        <div class="site__container main__container-control site__container-fluid">
-            <div class="site__row flex-row-control flex-vertical-middle beeteam368-top-menu-row">
-                <div class="beeteam368-sidemenu-btn site__col auto-width" style="display: none">
-                    <div class="oc-btn oc-btn-control">
-                        <div class="bar top"></div>
-                        <div class="bar middle"></div>
-                        <div class="bar bottom"></div>
-                    </div>
-                </div>
-                <div class="site__col auto-width beeteam368-logo">
-                    <div class="beeteam368-logo-wrap">
-                        <a href="https://vm.beeteam368.net/" title="VidMov Theme"
-                           class="beeteam368-logo-link h1 main-logo-control">
-                            <img alt="VidMov Theme"
-                                 src="assets/images/mainLogo.png"
                                  sizes="(max-width: 150px) 100vw, 150px"
                                  class="beeteam368-logo-img" width="150" height="38"> </a>
                     </div>
@@ -292,11 +271,11 @@ require('config.php');
                                         </li>
                                         <li id="menu-item-2248"
                                             class="menu-item menu-item-type-post_type menu-item-object-vidmov_video menu-item-2248">
-                                            <a href="https://vm.beeteam368.net/video/vast-linear/">VAST – Linear</a>
+                                            <a href="https://vm.beeteam368.net/video/vast-linear/">VAST ‚Äì Linear</a>
                                         </li>
                                         <li id="menu-item-2247"
                                             class="menu-item menu-item-type-post_type menu-item-object-vidmov_video menu-item-2247">
-                                            <a href="https://vm.beeteam368.net/video/vast-non-linear/">VAST – Non
+                                            <a href="https://vm.beeteam368.net/video/vast-non-linear/">VAST ‚Äì Non
                                                 Linear</a></li>
                                         <li id="menu-item-2250"
                                             class="menu-item menu-item-type-post_type menu-item-object-vidmov_video menu-item-2250">
@@ -305,7 +284,7 @@ require('config.php');
                                         <li id="menu-item-2249"
                                             class="menu-item menu-item-type-post_type menu-item-object-vidmov_video menu-item-2249">
                                             <a href="https://vm.beeteam368.net/video/autoplay-mix-advertising-types-together/">[Autoplay]
-                                                – Mix Advertising Types Together</a></li>
+                                                ‚Äì Mix Advertising Types Together</a></li>
                                         <li id="menu-item-2253"
                                             class="menu-item menu-item-type-post_type menu-item-object-vidmov_video menu-item-2253">
                                             <a href="https://vm.beeteam368.net/video/google-adsense/">Google Adsense</a>
@@ -334,11 +313,11 @@ require('config.php');
                                         <li id="menu-item-1683"
                                             class="menu-item menu-item-type-post_type menu-item-object-vidmov_video menu-item-1683">
                                             <a href="https://vm.beeteam368.net/video/self-hosted-video-subtitles/">Self-Hosted
-                                                Video – Subtitles</a></li>
+                                                Video ‚Äì Subtitles</a></li>
                                         <li id="menu-item-1684"
                                             class="menu-item menu-item-type-post_type menu-item-object-vidmov_video menu-item-1684">
                                             <a href="https://vm.beeteam368.net/video/youtube-or-vimeo-subtitles/">Youtube
-                                                or Vimeo – Subtitles</a></li>
+                                                or Vimeo ‚Äì Subtitles</a></li>
                                     </ul>
                                 </li>
                                 <li id="menu-item-1863"
@@ -513,24 +492,24 @@ require('config.php');
                                 </li>
                                 <li id="menu-item-2630"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2630">
-                                    <a href="#">myCred – Selling Points (Products)</a>
+                                    <a href="#">myCred ‚Äì Selling Points (Products)</a>
                                     <ul class="sub-menu beeteam368-megamenu-sub">
                                         <li id="menu-item-2637"
                                             class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2637">
                                             <a href="https://vm.beeteam368.net/product/selling-points-buy-100-points/">Selling
-                                                Points – Buy 100 Points</a></li>
+                                                Points ‚Äì Buy 100 Points</a></li>
                                         <li id="menu-item-2636"
                                             class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2636">
                                             <a href="https://vm.beeteam368.net/product/selling-points-buy-200-points/">Selling
-                                                Points – Buy 200 Points</a></li>
+                                                Points ‚Äì Buy 200 Points</a></li>
                                         <li id="menu-item-2635"
                                             class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2635">
                                             <a href="https://vm.beeteam368.net/product/selling-points-buy-300-points/">Selling
-                                                Points – Buy 300 Points</a></li>
+                                                Points ‚Äì Buy 300 Points</a></li>
                                         <li id="menu-item-2634"
                                             class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2634">
                                             <a href="https://vm.beeteam368.net/product/selling-points-buy-600-points/">Selling
-                                                Points – Buy 600 Points</a></li>
+                                                Points ‚Äì Buy 600 Points</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -545,25 +524,25 @@ require('config.php');
                                     <ul class="sub-menu beeteam368-megamenu-sub">
                                         <li id="menu-item-41"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41">
-                                            <a href="https://vm.beeteam368.net/header-classic/">Header – Classic</a>
+                                            <a href="https://vm.beeteam368.net/header-classic/">Header ‚Äì Classic</a>
                                         </li>
                                         <li id="menu-item-42"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42">
-                                            <a href="https://vm.beeteam368.net/header-poppy/">Header – Poppy</a></li>
+                                            <a href="https://vm.beeteam368.net/header-poppy/">Header ‚Äì Poppy</a></li>
                                         <li id="menu-item-40"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40">
-                                            <a href="https://vm.beeteam368.net/header-alyssa/">Header – Alyssa</a></li>
+                                            <a href="https://vm.beeteam368.net/header-alyssa/">Header ‚Äì Alyssa</a></li>
                                         <li id="menu-item-39"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39">
-                                            <a href="https://vm.beeteam368.net/header-leilani/">Header – Leilani</a>
+                                            <a href="https://vm.beeteam368.net/header-leilani/">Header ‚Äì Leilani</a>
                                         </li>
                                         <li id="menu-item-38"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38">
-                                            <a href="https://vm.beeteam368.net/header-marguerite/">Header –
+                                            <a href="https://vm.beeteam368.net/header-marguerite/">Header ‚Äì
                                                 Marguerite</a></li>
                                         <li id="menu-item-37"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37">
-                                            <a href="https://vm.beeteam368.net/header-rose/">Header – Rose</a></li>
+                                            <a href="https://vm.beeteam368.net/header-rose/">Header ‚Äì Rose</a></li>
                                     </ul>
                                 </li>
                                 <li id="menu-item-68"
@@ -572,28 +551,28 @@ require('config.php');
                                     <ul class="sub-menu beeteam368-megamenu-sub">
                                         <li id="menu-item-1541"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1541">
-                                            <a href="https://vm.beeteam368.net/layout-default/">Layout – Default</a>
+                                            <a href="https://vm.beeteam368.net/layout-default/">Layout ‚Äì Default</a>
                                         </li>
                                         <li id="menu-item-1542"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1542">
-                                            <a href="https://vm.beeteam368.net/layout-alyssa/">Layout – Alyssa</a></li>
+                                            <a href="https://vm.beeteam368.net/layout-alyssa/">Layout ‚Äì Alyssa</a></li>
                                         <li id="menu-item-1540"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1540">
-                                            <a href="https://vm.beeteam368.net/layout-leilani/">Layout – Leilani</a>
+                                            <a href="https://vm.beeteam368.net/layout-leilani/">Layout ‚Äì Leilani</a>
                                         </li>
                                         <li id="menu-item-1539"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1539">
-                                            <a href="https://vm.beeteam368.net/layout-lily/">Layout – Lily</a></li>
+                                            <a href="https://vm.beeteam368.net/layout-lily/">Layout ‚Äì Lily</a></li>
                                         <li id="menu-item-1538"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1538">
-                                            <a href="https://vm.beeteam368.net/layout-marguerite/">Layout –
+                                            <a href="https://vm.beeteam368.net/layout-marguerite/">Layout ‚Äì
                                                 Marguerite</a></li>
                                         <li id="menu-item-1536"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1536">
-                                            <a href="https://vm.beeteam368.net/layout-rose/">Layout – Rose</a></li>
+                                            <a href="https://vm.beeteam368.net/layout-rose/">Layout ‚Äì Rose</a></li>
                                         <li id="menu-item-1537"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1537">
-                                            <a href="https://vm.beeteam368.net/layout-orchid/">Layout – Orchid</a></li>
+                                            <a href="https://vm.beeteam368.net/layout-orchid/">Layout ‚Äì Orchid</a></li>
                                     </ul>
                                 </li>
                                 <li id="menu-item-69"
@@ -634,23 +613,23 @@ require('config.php');
                                     <ul class="sub-menu beeteam368-megamenu-sub">
                                         <li id="menu-item-1611"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1611">
-                                            <a href="https://vm.beeteam368.net/slider-lily/">Slider – Lily</a></li>
+                                            <a href="https://vm.beeteam368.net/slider-lily/">Slider ‚Äì Lily</a></li>
                                         <li id="menu-item-1612"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1612">
-                                            <a href="https://vm.beeteam368.net/slider-alyssa/">Slider – Alyssa</a></li>
+                                            <a href="https://vm.beeteam368.net/slider-alyssa/">Slider ‚Äì Alyssa</a></li>
                                         <li id="menu-item-1609"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1609">
-                                            <a href="https://vm.beeteam368.net/slider-rose/">Slider – Rose</a></li>
+                                            <a href="https://vm.beeteam368.net/slider-rose/">Slider ‚Äì Rose</a></li>
                                         <li id="menu-item-1610"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1610">
-                                            <a href="https://vm.beeteam368.net/slider-orchid/">Slider – Orchid</a></li>
+                                            <a href="https://vm.beeteam368.net/slider-orchid/">Slider ‚Äì Orchid</a></li>
                                         <li id="menu-item-1613"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1613">
-                                            <a href="https://vm.beeteam368.net/slider-pro-sunflower/">Slider – [Pro]
+                                            <a href="https://vm.beeteam368.net/slider-pro-sunflower/">Slider ‚Äì [Pro]
                                                 Sunflower</a></li>
                                         <li id="menu-item-1614"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1614">
-                                            <a href="https://vm.beeteam368.net/slider-pro-cyclamen/">Slider – [Pro]
+                                            <a href="https://vm.beeteam368.net/slider-pro-cyclamen/">Slider ‚Äì [Pro]
                                                 Cyclamen</a></li>
                                     </ul>
                                 </li>
@@ -672,13 +651,13 @@ require('config.php');
                                     <ul class="sub-menu beeteam368-megamenu-sub">
                                         <li id="menu-item-1810"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1810">
-                                            <a href="https://vm.beeteam368.net/sidebar-right/">Sidebar – Right</a></li>
+                                            <a href="https://vm.beeteam368.net/sidebar-right/">Sidebar ‚Äì Right</a></li>
                                         <li id="menu-item-1811"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1811">
-                                            <a href="https://vm.beeteam368.net/sidebar-left/">Sidebar – Left</a></li>
+                                            <a href="https://vm.beeteam368.net/sidebar-left/">Sidebar ‚Äì Left</a></li>
                                         <li id="menu-item-1812"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1812">
-                                            <a href="https://vm.beeteam368.net/sidebar-hidden/">Sidebar – Hidden</a>
+                                            <a href="https://vm.beeteam368.net/sidebar-hidden/">Sidebar ‚Äì Hidden</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -2175,7 +2154,7 @@ require('config.php');
                                                                     </div>
                                                                     <a data-post-id="527" data-post-type="vidmov_video"
                                                                        href="https://vm.beeteam368.net/video/nature-documentary-the-wilderness/"
-                                                                       title="Nature Documentary – The Wilderness"
+                                                                       title="Nature Documentary ‚Äì The Wilderness"
                                                                        class="blog-img-link blog-img-link-control"><img
                                                                                 src="https://vm.beeteam368.net/wp-content/uploads/2021/12/parrot-3601194_1920-420x237.jpg"
                                                                                 class="blog-img" alt=""
@@ -2227,8 +2206,8 @@ require('config.php');
                                                                 <h3 class="entry-title post-title max-2lines h5 h6-mobile max-2lines">
                                                                     <a class="post-listing-title"
                                                                        href="https://vm.beeteam368.net/video/nature-documentary-the-wilderness/"
-                                                                       title="Nature Documentary – The Wilderness">Nature
-                                                                        Documentary – The Wilderness</a>
+                                                                       title="Nature Documentary ‚Äì The Wilderness">Nature
+                                                                        Documentary ‚Äì The Wilderness</a>
                                                                 </h3>
                                                             </div>
                                                         </article>
@@ -2553,7 +2532,7 @@ require('config.php');
                                                                     <a data-post-id="341"
                                                                        data-post-type="vidmov_playlist"
                                                                        href="https://vm.beeteam368.net/playlist/dan-browns-the-lost-symbol/"
-                                                                       title="Dan Brown’s The Lost Symbol"
+                                                                       title="Dan Brown‚Äôs The Lost Symbol"
                                                                        class="blog-img-link blog-img-link-control"><img
                                                                                 src="https://vm.beeteam368.net/wp-content/uploads/2021/12/jakob-owens-HgY3BnCWiq8-unsplash-420x237.jpg"
                                                                                 class="blog-img" alt=""
@@ -2586,7 +2565,7 @@ require('config.php');
                                                                 <h3 class="entry-title post-title max-2lines h5 h6-mobile max-2lines">
                                                                     <a class="post-listing-title"
                                                                        href="https://vm.beeteam368.net/playlist/dan-browns-the-lost-symbol/"
-                                                                       title="Dan Brown’s The Lost Symbol">Dan Brown’s
+                                                                       title="Dan Brown‚Äôs The Lost Symbol">Dan Brown‚Äôs
                                                                         The Lost Symbol</a>
                                                                 </h3>
                                                             </div>

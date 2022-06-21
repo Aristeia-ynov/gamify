@@ -73,7 +73,7 @@
                                 <a href="https://vm.beeteam368.net/series-category/tv-shows/">TV Shows</a></li>
                         </ul>
                         <?php
-                        if (isset($_SESSION['id'])) {
+                        if (isset($_SESSION['id']))
                             ?>
                             <h5 class="h5 widget-title flex-row-control flex-vertical-middle layer-hidden"
                                 style="display: none; margin: 0 0 10px 0">
