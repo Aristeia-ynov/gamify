@@ -88,8 +88,4 @@ $(function () {
         $('script[src="' + src + '"]').remove();
         $('<script>').attr('src', src).appendTo('head');
     }
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> main
