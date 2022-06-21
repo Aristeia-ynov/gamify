@@ -16,3 +16,7 @@ jobs:
 
     steps:
       - uses: valerianpereira/backup-action@0.0.4
+
+      - uses: webfactory/ssh-agent@v0.5.4
+
+            
