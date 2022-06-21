@@ -89,7 +89,6 @@
 │   ├── scripts.php
 │   └── sidebar.php
 ├── index.php
-├── list.md
 ├── login-registration.php
 ├── logout.php
 ├── search.php
