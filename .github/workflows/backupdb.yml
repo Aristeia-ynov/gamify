@@ -1,7 +1,7 @@
 name: backup db
 on:
   schedule:
-    - cron: "0 10 * * 1" # Every Monday at 10 AM UTC
+    - cron: "0 0 * * *" # every day  At 12:00 AM 
 jobs:
   build:
     name: Build
