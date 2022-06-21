@@ -285,4 +285,8 @@
 body.temp-disable-transition *, body.temp-disable-transition *:before, body.temp-disable-transition *:after {
     transition: none !important;
     -webkit-transition: none !important
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main

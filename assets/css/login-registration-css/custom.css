@@ -27,12 +27,21 @@
 .gocover {
     display:none;
     position: absolute;
-    position: fixed; 
-    left: 0; 
-    top: 0; 
-    z-index: 999; 
-    width: 100%; 
-    height: 100%; 
+<<<<<<< HEAD
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+=======
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+>>>>>>> main
     overflow: visible;
 }
 .modal-body p {
@@ -138,7 +147,11 @@ span.input-group-addon {
     }
     .color-area {
       position: relative;
-    }     
+<<<<<<< HEAD
+    }
+=======
+    }
+>>>>>>> main
     .feature-area {
       position: relative;
     }
@@ -227,7 +240,11 @@ a.clear {
         line-height: 50px;
         font-weight: 600;
         text-align: center;
-        
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
         border: 0px;
         border-radius: 5px;
         cursor: pointer;
@@ -255,7 +272,11 @@ a.clear {
       background-color: #9b14dc !important;
     }
 
-    
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
 /*  Starting of new view details area  */
 .order-table-wrap {
   background: #fff;
@@ -425,7 +446,11 @@ a.clear {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
- .order-table-wrap .special-box .table td, 
+<<<<<<< HEAD
+ .order-table-wrap .special-box .table td,
+=======
+ .order-table-wrap .special-box .table td,
+>>>>>>> main
  .order-table-wrap .special-box .table th {
   padding: 3px 0px!important;
   border: 0px;
@@ -772,4 +797,8 @@ background: rgba(0,0,0,.075);
 .add-logo-area .currrent-logo{
   text-align: center;
   display: block;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main

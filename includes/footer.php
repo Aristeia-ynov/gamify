@@ -35,4 +35,8 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 </footer>
+=======
+</footer>
+>>>>>>> main

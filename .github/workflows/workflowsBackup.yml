@@ -1,0 +1,24 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Backup Server
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  SSH-Aut:
+      runs-on: ubuntu-latest
+
+      steps:
+      - uses: webfactory/ssh-agent@v0.5.4
+
+  Backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: valerianpereira/backup-action@0.0.4

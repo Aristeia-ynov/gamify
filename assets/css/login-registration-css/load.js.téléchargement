@@ -1,6 +1,10 @@
 (function($) {
 		"use strict";
-		
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
 	$(document).ready(function() {
       //cart item remove code
     $('.cart-remove').on('click', function(){
@@ -84,12 +88,21 @@
         // Check Click :)
         $(".checkclick").on( "change", function() {
             if(this.checked){
-             $(this).parent().parent().parent().next().removeClass('showbox');  
+<<<<<<< HEAD
+             $(this).parent().parent().parent().next().removeClass('showbox');
             }
             else{
-             $(this).parent().parent().parent().next().addClass('showbox');   
+             $(this).parent().parent().parent().next().addClass('showbox');
             }
-            
+
+=======
+             $(this).parent().parent().parent().next().removeClass('showbox');
+            }
+            else{
+             $(this).parent().parent().parent().next().addClass('showbox');
+            }
+
+>>>>>>> main
         });
         // Check Click Ends :)
 
@@ -97,12 +110,21 @@
         // Check Click1 :)
         $(".checkclick1").on( "change", function() {
             if(this.checked){
-             $(this).parent().parent().parent().parent().next().removeClass('showbox');  
+<<<<<<< HEAD
+             $(this).parent().parent().parent().parent().next().removeClass('showbox');
             }
             else{
-             $(this).parent().parent().parent().parent().next().addClass('showbox');   
+             $(this).parent().parent().parent().parent().next().addClass('showbox');
             }
-            
+
+=======
+             $(this).parent().parent().parent().parent().next().removeClass('showbox');
+            }
+            else{
+             $(this).parent().parent().parent().parent().next().addClass('showbox');
+            }
+
+>>>>>>> main
         });
         // Check Click1 Ends :)
 
@@ -113,10 +135,16 @@
 
 	});
 
-// Drop Down Section Ends	
+<<<<<<< HEAD
+// Drop Down Section Ends
 
 })(jQuery);
 
 
-  
 
+
+=======
+// Drop Down Section Ends
+
+})(jQuery);
+>>>>>>> main

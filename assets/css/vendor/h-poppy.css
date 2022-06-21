@@ -312,4 +312,8 @@
         margin: calc(var(--height__h-all-main-menu-height-open-mobile) + var(--height__top-bar)) 0 0 0;
         height: calc(100vh - var(--height__h-all-main-menu-height-open-mobile) - var(--height__top-bar))
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main

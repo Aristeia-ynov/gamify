@@ -1,12 +1,20 @@
 (function($) {
     "use strict";
-    
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
   $(document).ready(function() {
 
 
 function disablekey()
 {
- document.onkeydown = function (e) 
+<<<<<<< HEAD
+ document.onkeydown = function (e)
+=======
+ document.onkeydown = function (e)
+>>>>>>> main
  {
   return false;
  }
@@ -14,7 +22,11 @@ function disablekey()
 
 function enablekey()
 {
- document.onkeydown = function (e) 
+<<<<<<< HEAD
+ document.onkeydown = function (e)
+=======
+ document.onkeydown = function (e)
+>>>>>>> main
  {
   return true;
  }
@@ -103,7 +115,11 @@ function enablekey()
             $('#t-txt').removeClass('d-none');
           }
           $('#t-id').val($(this).data('id'));
-          $('#t-title').val(data);          
+<<<<<<< HEAD
+          $('#t-title').val(data);
+=======
+          $('#t-title').val(data);
+>>>>>>> main
         });
 
       $(document).on('change','.vendor-droplinks',function (e) {
@@ -138,7 +154,11 @@ if(admin_loader == 1)
             $('.submit-loader').hide();
           }
       }
-      
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
     });
 });
 
@@ -208,7 +228,11 @@ if(admin_loader == 1)
             $('.submit-loader').hide();
           }
       }
-      
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
     });
 });
 
@@ -232,7 +256,11 @@ if(admin_loader == 1)
             $('.submit-loader').hide();
           }
       }
-      
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
     });
 });
 
@@ -256,7 +284,11 @@ if(admin_loader == 1)
             $('.submit-loader').hide();
           }
       }
-      
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
     });
 });
 
@@ -356,7 +388,11 @@ if(admin_loader == 1)
             $('.submit-loader').hide();
           }
 
-              
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
          }
         });
         return false;
@@ -385,7 +421,11 @@ if(admin_loader == 1)
             $('.submit-loader').hide();
           }
 
-              
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
          }
         });
 
@@ -404,7 +444,11 @@ if(admin_loader == 1)
           method: "GET",
           data: { id : id, title: title, text : text }
         });
- 
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
       }
 
 }
@@ -496,7 +540,11 @@ $('button.addProductSubmit-btn').prop('disabled',true);
 
     });
 
-});  
+<<<<<<< HEAD
+});
+=======
+});
+>>>>>>> main
 
 // NORMAL FORM ENDS
 
@@ -538,7 +586,11 @@ $(document).on('submit','#trackform',function(e){
             $('#trackform .alert-success p').html(data);
             $('#trackform input , #trackform select , #trackform textarea').eq(1).focus();
             $('#track-load').load($('#track-load').data('href'));
-            
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
           }
   if(admin_loader == 1)
   {
@@ -550,7 +602,11 @@ $(document).on('submit','#trackform',function(e){
 
       });
 
-});  
+<<<<<<< HEAD
+});
+=======
+});
+>>>>>>> main
 
 // NORMAL FORM ENDS
 
@@ -598,7 +654,11 @@ $(document).on('submit','#messageform',function(e){
           $('button.mybtn1').prop('disabled',false);
        }
       });
-});  
+<<<<<<< HEAD
+});
+=======
+});
+>>>>>>> main
 
 // MESSAGE FORM ENDS
 
@@ -643,7 +703,11 @@ $("#loginform").on('submit',function(e){
 
       });
 
-});  
+<<<<<<< HEAD
+});
+=======
+});
+>>>>>>> main
 
 
 // LOGIN FORM ENDS
@@ -689,7 +753,11 @@ $("#forgotform").on('submit',function(e){
 
       });
 
-});  
+<<<<<<< HEAD
+});
+=======
+});
+>>>>>>> main
 
 
 // FORGOT FORM ENDS
@@ -704,7 +772,11 @@ $(document).ready(function(){
                     success:function(data){
                         $("#user-notf-count").html(data);
                       }
-              }); 
+<<<<<<< HEAD
+              });
+=======
+              });
+>>>>>>> main
     }, 5000);
 });
 
@@ -730,7 +802,11 @@ $(document).ready(function(){
                     success:function(data){
                         $("#order-notf-count").html(data);
                       }
-              }); 
+<<<<<<< HEAD
+              });
+=======
+              });
+>>>>>>> main
     }, 5000);
 });
 
@@ -756,7 +832,11 @@ $(document).ready(function(){
                     success:function(data){
                         $("#product-notf-count").html(data);
                       }
-              }); 
+<<<<<<< HEAD
+              });
+=======
+              });
+>>>>>>> main
     }, 5000);
 });
 
@@ -782,7 +862,11 @@ $(document).ready(function(){
                     success:function(data){
                         $("#conv-notf-count").html(data);
                       }
-              }); 
+<<<<<<< HEAD
+              });
+=======
+              });
+>>>>>>> main
     }, 5000);
 });
 
@@ -835,7 +919,11 @@ $(document).on('click','.send',function(){
                     $.notify("Message Sent !!","success");
                   $('.close').click();
             }
-        });          
+<<<<<<< HEAD
+        });
+=======
+        });
+>>>>>>> main
           return false;
         });
 
@@ -877,7 +965,11 @@ $(document).on('click','.send',function(){
         $('.close').click();
             }
 
-        });          
+<<<<<<< HEAD
+        });
+=======
+        });
+>>>>>>> main
           return false;
         });
 // SEND EMAIL SECTION ENDS
@@ -928,4 +1020,8 @@ $(document).on('click','.track-delete',function(){
 // **************************************  AJAX REQUESTS SECTION ENDS *****************************************
 
 
+<<<<<<< HEAD
 })(jQuery);
+=======
+})(jQuery);
+>>>>>>> main

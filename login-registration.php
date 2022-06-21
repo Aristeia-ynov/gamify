@@ -1,10 +1,13 @@
 <?php
 require ('includes/config.php');
+<<<<<<< HEAD
 session_start();
 //if (isset($_SESSION['id'])) {
 //    header("Location: " . URL . "/index.php");
 //}
 
+=======
+>>>>>>> main
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -33,6 +36,14 @@ session_start();
 <div id="loader">
 
 </div>
+<<<<<<< HEAD
+=======
+<?php
+if (isset($_SESSION['id'])) {
+    header("Location: " . URL . "/index.php");
+}
+?>
+>>>>>>> main
 
 <section class="login-signup">
     <div class="container p-5" style="display: none" id="error-div">
@@ -136,4 +147,8 @@ session_start();
     // }
 </script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> main

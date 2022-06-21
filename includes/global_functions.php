@@ -126,6 +126,7 @@ function getTemperature($city)
     $temperature = $response["main"]["temp"]; // In kelvin
     return $temperature - 273.15; // Convert to celsius and return
 }
+<<<<<<< HEAD
 
 /**
  * @param $number numeric The number to format
@@ -145,3 +146,5 @@ function getMinNumber($number){
 
     return $format;
 }
+=======
+>>>>>>> main

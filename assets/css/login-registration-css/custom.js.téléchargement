@@ -1,6 +1,10 @@
 (function($) {
 		"use strict";
-		
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> main
 	$(document).ready(function() {
 
 
@@ -8,15 +12,26 @@
 
     $('.dropdown-toggle-1').on('click', function(){
        $(this).parent().siblings().find('.dropdown-menu').hide();
-       $(this).next('.dropdown-menu').toggle(); 
+<<<<<<< HEAD
+       $(this).next('.dropdown-menu').toggle();
     });
 
-  $(document).on('click', function(e) 
+  $(document).on('click', function(e)
+=======
+       $(this).next('.dropdown-menu').toggle();
+    });
+
+  $(document).on('click', function(e)
+>>>>>>> main
   {
       var container = $(".dropdown-toggle-1");
 
       // if the target of the click isn't the container nor a descendant of the container
-      if (!container.is(e.target) && container.has(e.target).length === 0) 
+<<<<<<< HEAD
+      if (!container.is(e.target) && container.has(e.target).length === 0)
+=======
+      if (!container.is(e.target) && container.has(e.target).length === 0)
+>>>>>>> main
       {
           container.next('.dropdown-menu').hide();
       }
@@ -24,7 +39,11 @@
 
   });
 
-// Drop Down Section Ends 
+<<<<<<< HEAD
+// Drop Down Section Ends
+=======
+// Drop Down Section Ends
+>>>>>>> main
 
 		// Side Bar Area Js
 		$('#sidebarCollapse').on('click', function() {
@@ -50,10 +69,16 @@
 
     // Nice Select Active js
     $('.select').niceSelect();
-    //  Nice Select Ends    
+<<<<<<< HEAD
+    //  Nice Select Ends
 
 })(jQuery);
 
 
-  
 
+
+=======
+    //  Nice Select Ends
+
+})(jQuery);
+>>>>>>> main
