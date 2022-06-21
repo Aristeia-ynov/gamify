@@ -661,4 +661,3 @@ session_start();
 <?php require('includes/scripts.php'); ?>
 </body>
 </html>
-</html>
