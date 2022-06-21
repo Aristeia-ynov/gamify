@@ -14,4 +14,4 @@ Current dev versions
 
 ## Reporting a Vulnerability
 
-Report 
+Report Vuln here [Email](mouhcine.mesmouki7@gmail.com)
