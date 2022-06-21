@@ -80,7 +80,6 @@
 │       ├── main.js
 │       └── vendor
 │           └── swiper.js
-├── git-backup
 ├── includes
 │   ├── footer.php
 │   ├── global_functions.php
@@ -96,4 +95,4 @@
 
 ```
 
-11 directories, 64 files
+11 directories, 63 files
