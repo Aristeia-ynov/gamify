@@ -1,6 +1,6 @@
 (function($) {
 		"use strict";
-		
+
 	$(document).ready(function() {
       //cart item remove code
     $('.cart-remove').on('click', function(){
@@ -84,12 +84,12 @@
         // Check Click :)
         $(".checkclick").on( "change", function() {
             if(this.checked){
-             $(this).parent().parent().parent().next().removeClass('showbox');  
+             $(this).parent().parent().parent().next().removeClass('showbox');
             }
             else{
-             $(this).parent().parent().parent().next().addClass('showbox');   
+             $(this).parent().parent().parent().next().addClass('showbox');
             }
-            
+
         });
         // Check Click Ends :)
 
@@ -97,12 +97,12 @@
         // Check Click1 :)
         $(".checkclick1").on( "change", function() {
             if(this.checked){
-             $(this).parent().parent().parent().parent().next().removeClass('showbox');  
+             $(this).parent().parent().parent().parent().next().removeClass('showbox');
             }
             else{
-             $(this).parent().parent().parent().parent().next().addClass('showbox');   
+             $(this).parent().parent().parent().parent().next().addClass('showbox');
             }
-            
+
         });
         // Check Click1 Ends :)
 
@@ -113,10 +113,6 @@
 
 	});
 
-// Drop Down Section Ends	
+// Drop Down Section Ends
 
 })(jQuery);
-
-
-  
-

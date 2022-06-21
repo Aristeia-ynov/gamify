@@ -13,16 +13,12 @@ on:
 jobs:
   SSH-Aut:
       runs-on: ubuntu-latest
-      
+
       steps:
       - uses: webfactory/ssh-agent@v0.5.4
-      
+
   Backup:
     runs-on: ubuntu-latest
 
     steps:
       - uses: valerianpereira/backup-action@0.0.4
-  
-  
-
-            

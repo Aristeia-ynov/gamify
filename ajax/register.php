@@ -36,7 +36,7 @@ $number = preg_match('@[0-9]@', $password); // Checks if password has a number
 $specialChars = preg_match('@[^\w]@', $password); // Checks if password has a special character
 if (!$uppercase || !$lowercase || !$number ||
     !$specialChars || strlen($password) < $lengthPassword) {
-    $json['error'] = "Your password must be " . $lengthPassword . " characters long and must contain at least one uppercase, one lowercase, one number 
+    $json['error'] = "Your password must be " . $lengthPassword . " characters long and must contain at least one uppercase, one lowercase, one number
     and one special character!";
     die(json_encode($json));
 }
