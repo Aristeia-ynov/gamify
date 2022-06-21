@@ -1,18 +1,11 @@
-<<<<<<< HEAD
 @media (max-width: 1600px) {
-=======
-@media (max-width: 1600px) {
->>>>>>> main
+
   .row-cards-one .mycard::after {
     right: -100px;
   }
  }
 
-<<<<<<< HEAD
 @media (max-width: 1400px) {
-=======
-@media (max-width: 1400px) {
->>>>>>> main
   .row-cards-one .mycard .right .icon {
     font-size: 50px;
   }
@@ -39,11 +32,7 @@ div#preview-crop-image {
 @media (max-width: 1300px) {
   .row-cards-one .mycard .right .icon {
     font-size: 40px;
-<<<<<<< HEAD
   }
-=======
-  }
->>>>>>> main
   .row-cards-one .mycard::after {
     right: -180px;
     transform: rotate(20deg);
@@ -89,11 +78,8 @@ div#preview-crop-image {
   }
 
  }
-<<<<<<< HEAD
  @media (min-width: 992px) and (max-width: 1199.98px) {
-=======
- @media (min-width: 992px) and (max-width: 1199.98px) {
->>>>>>> main
+
   #modal1 .modal-dialog {
     max-width: 98%;
   }
@@ -134,11 +120,8 @@ div#preview-crop-image {
   margin-top: 90px;
 }
 .img-upload.full-width-img  .text {
-<<<<<<< HEAD
    margin-top: 0px;
-=======
-   margin-top: 0px;
->>>>>>> main
+
 }
 .img-upload.full-width-img {
     margin-bottom: 90px;
@@ -213,11 +196,8 @@ div#preview-crop-image {
 @media  (max-width: 414px) {
    .row-cards-one .mycard .right .icon {
     font-size: 40px;
-<<<<<<< HEAD
   }
-=======
-  }
->>>>>>> main
+
   .row-cards-one .mycard::after {
     right: -170px;
     transform: rotate(20deg);
@@ -244,8 +224,5 @@ div#preview-crop-image {
     width: 200px;
   }
 
-<<<<<<< HEAD
  }
-=======
- }
->>>>>>> main
+
