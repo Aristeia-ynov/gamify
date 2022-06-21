@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+<?php
+require('includes/config.php');
+require('includes/global_functions.php');
+session_start();
+?>
+=======
+>>>>>>> main
 <html lang="en">
 <head>
     <title>Gamify</title>
@@ -36,6 +44,122 @@
                                                  class="swiper slider-larger swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
                                                 <div class="swiper-wrapper" id="swiper-wrapper-5b109653102af4e772"
                                                      aria-live="polite">
+<<<<<<< HEAD
+                                                    <?php
+                                                    if (isset($_SESSION['id'])) {
+                                                        $sql = "SELECT channel.followers_channel, channel.name_channel, channel.id_channel,
+                                                            stream.id_stream, game.name_game, stream.views_stream, stream.name_stream,
+                                                            CASE
+                                                                WHEN " . $_SESSION['id'] . " IN (SELECT id_user FROM follow WHERE follow.id_channel = channel.id_channel) THEN 1
+                                                                ELSE 0
+                                                            END AS Following
+                                                            FROM stream
+                                                            JOIN channel ON channel.id_channel = stream.id_channel
+                                                            JOIN game ON stream.id_game = game.id_game
+                                                            WHERE is_live_stream = 1
+                                                            ORDER BY channel.followers_channel DESC";
+                                                    } else {
+                                                        $sql = "SELECT channel.followers_channel, channel.name_channel, channel.id_channel,
+                                                            stream.id_stream, game.name_game, stream.views_stream, stream.name_stream
+                                                            FROM stream
+                                                            JOIN channel ON channel.id_channel = stream.id_channel
+                                                            JOIN game ON stream.id_game = game.id_game
+                                                            WHERE is_live_stream = 1
+                                                            ORDER BY channel.followers_channel DESC";
+                                                    }
+                                                    $result = odbc_exec($con, $sql);
+                                                    $counter = 0;
+                                                    $slider = "";
+                                                    while ($table = odbc_fetch_object($result)) {
+                                                        if ($counter == 8) {
+                                                            break;
+                                                        }
+                                                        if ($counter == 0) {
+                                                            $slider = "swiper-slide-active";
+                                                        } elseif ($counter == 1) {
+                                                            $slider = "swiper-slide-next";
+                                                        }
+                                                        $fileName = $_SERVER["DOCUMENT_ROOT"] . "/GameFy/" . PATH_IMG_CHANNEL . $table->id_channel . ".jpeg";
+                                                        if (file_exists($fileName)) {
+                                                            $path = PATH_IMG_CHANNEL . $table->id_channel . ".jpeg";
+                                                        } else {
+                                                            $path = "https://i.pinimg.com/originals/3e/f1/d4/3ef1d460e6bb89eaa7d2fcf283795191.jpg";
+                                                        }
+                                                        $views = getMinNumber(intval($table->views_stream));
+                                                        $followers = getMinNumber(intval($table->followers_channel));
+                                                        ?>
+                                                        <div class="swiper-slide <?php echo $slider ?>"
+                                                             style="width: 1860px;"
+                                                             role="group">
+                                                            <article
+                                                                    class="post-item flex-vertical-middle slider-preview-control"
+                                                                    style="background-image: url(<?php echo $path ?>);">
+                                                                <div class="post-item-wrap site__container main__container-control site__container-fluid">
+                                                                    <div class="site__row">
+                                                                        <div class="site__col">
+                                                                            <div class="slider-content">
+                                                                                <div class="posted-on ft-post-meta font-meta font-meta-size-12 flex-row-control">
+                                                                                    <div class="post-lt-ft-left flex-row-control flex-vertical-middle">
+                                                                                        <div class="post-footer-item post-lt-comments post-lt-comment-control">
+                                                                                            <?php
+                                                                                            if (!isset($_SESSION['id'])) {
+                                                                                                ?>
+                                                                                                <span class="beeteam368-icon-item small-item"
+                                                                                                      style="background-color: #646464; cursor: default"
+                                                                                                      id="<?php echo $table->id_channel ?>"><i
+                                                                                                            class="fas fa-heart"></i></span>
+                                                                                                <?php
+                                                                                            } else {
+                                                                                                if ($table->Following == 0) {
+                                                                                                    ?>
+                                                                                                    <span class="beeteam368-icon-item small-item follow-change add"
+                                                                                                          style="background-color: #646464"
+                                                                                                          id="<?php echo $table->id_channel ?>"><i
+                                                                                                                class="fas fa-heart"></i></span>
+                                                                                                    <?php
+                                                                                                } else {
+                                                                                                    ?>
+                                                                                                    <span class="beeteam368-icon-item small-item follow-change remove"
+                                                                                                          style="background-color: #FF375F"
+                                                                                                          id="<?php echo $table->id_channel ?>"><i
+                                                                                                                class="fas fa-heart"></i></span>
+                                                                                                    <?php
+                                                                                                }
+                                                                                            }
+                                                                                            ?>
+                                                                                            <span
+                                                                                                    class="item-number"><?php echo $followers ?></span>
+                                                                                            <span class="item-text">Followers</span>
+                                                                                        </div>
+                                                                                        <span class="post-footer-item post-lt-views post-lt-views-control">
+<span class="beeteam368-icon-item small-item"><i
+            class="fas fa-eye"></i></span><span class="item-number"><?php echo $views ?></span>
+<span class="item-text">viewers</span>
+</span></div>
+                                                                                </div>
+                                                                                <h3 class="entry-title post-title max-2lines ">
+                                                                                    <a class="post-listing-title"
+                                                                                       href="#"
+                                                                                       title="<?php echo $table->name_stream ?>"><?php echo $table->name_stream ?></a>
+                                                                                </h3>
+                                                                                <span class="entry-title post-title max-2lines"
+                                                                                      style="font-size: 20px; font-family: var(--font__heading);">
+                                                                                Channel: <b><?php echo $table->name_channel ?></b>
+                                                                            </span>
+                                                                                <span class="entry-title post-title max-1lines"
+                                                                                      style="font-size: 15px; font-family: var(--font__heading);">
+                                                                                Game: <b><?php echo $table->name_game ?></b>
+                                                                            </span>
+                                                                                <div class="btn-slider-pro">
+                                                                                    <a href="#"
+                                                                                       class="btnn-default btnn-primary"><i
+                                                                                                class="icon far fa-play-circle"></i><span>Watch NOW</span></a>
+                                                                                    <button class="reverse slider-preview preview-mode-control"
+                                                                                            data-id="117">
+                                                                                        <i class="icon far fa-eye"></i><span>Preview</span>
+                                                                                    </button>
+                                                                                </div>
+=======
                                                     <div class="swiper-slide swiper-slide-active" style="width: 1860px;"
                                                          role="group" aria-label="1 / 8">
                                                         <article
@@ -72,10 +196,19 @@
                                                                                         data-id="117">
                                                                                     <i class="icon far fa-eye"></i><span>Preview</span>
                                                                                 </button>
+>>>>>>> main
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
+<<<<<<< HEAD
+                                                            </article>
+                                                        </div>
+                                                        <?php
+                                                        $counter++;
+                                                    }
+                                                    ?>
+=======
                                                             </div>
                                                         </article>
                                                     </div>
@@ -211,6 +344,7 @@
                                                             </div>
                                                         </article>
                                                     </div>
+>>>>>>> main
                                                 </div>
                                                 <span class="swiper-notification" aria-live="assertive"
                                                       aria-atomic="true"></span></div>
@@ -220,6 +354,73 @@
                                                     <div class="swiper-wrapper"
                                                          style="transform: translate3d(0px, 0px, 0px);"
                                                          id="swiper-wrapper-6bb2302f63dafadd" aria-live="polite">
+<<<<<<< HEAD
+                                                        <!--           TODO:    Add sql loop here for mini slider on the right                                         -->
+                                                        <?php
+                                                        $sql = "SELECT channel.name_channel, channel.id_channel, stream.id_stream, stream.name_stream
+                                                            FROM stream
+                                                            JOIN channel ON channel.id_channel = stream.id_channel
+                                                            WHERE is_live_stream = 1
+                                                            ORDER BY channel.followers_channel DESC";
+                                                        $result = odbc_exec($con, $sql);
+                                                        $counter = 0;
+                                                        $slider = "";
+                                                        while ($table = odbc_fetch_object($result)) {
+                                                            if ($counter == 8) {
+                                                                break;
+                                                            }
+                                                            if ($counter == 0) {
+                                                                $slider = "swiper-slide-visible swiper-slide-active swiper-slide-thumb-active";
+                                                            } elseif ($counter == 1) {
+                                                                $slider = "swiper-slide-visible swiper-slide-next";
+                                                            } elseif ($counter == 2) {
+                                                                $slider = "swiper-slide-visible";
+                                                            }
+                                                            $fileName = $_SERVER["DOCUMENT_ROOT"] . "/GameFy/" . PATH_IMG_CHANNEL . $table->id_channel . ".jpeg";
+                                                            if (file_exists($fileName)) {
+                                                                $path = PATH_IMG_CHANNEL . $table->id_channel . ".jpeg";
+                                                            } else {
+                                                                $path = "https://i.pinimg.com/originals/3e/f1/d4/3ef1d460e6bb89eaa7d2fcf283795191.jpg";
+                                                            }
+                                                            ?>
+                                                            <div class="swiper-slide <?php echo $slider ?>"
+                                                                 style="margin-bottom: 30px;" role="group">
+                                                                <article class="post-item">
+                                                                    <h3 style="display:none !important"><?php echo $table->name_stream ?></h3>
+                                                                    <div class="post-featured-image preview-mode-control"
+                                                                         data-id="117">
+                                                                        <div class="beeteam368-bt-to-img flex-row-control flex-vertical-middle dark-mode first-show">
+                                                                        <span class="trending-icon font-size-12 flex-vertical-middle"><i
+                                                                                    class="fas fa-bolt"></i>&nbsp;&nbsp;<span>#1</span></span>
+                                                                        </div>
+                                                                        <img src="https://vm.beeteam368.net/wp-content/uploads/2021/11/zombie-1801470_1920-300x169.jpg"
+                                                                             class="blog-img slider-count" alt=""
+                                                                             srcset="<?php echo $path ?>"
+                                                                             sizes="(max-width: 300px) 100vw, 300px"
+                                                                             width="300" height="169">
+                                                                        <div class="beeteam368-bt-ft-img second-show flex-row-control flex-vertical-middle tiny-icons dark-mode">
+                                                                            <a class="beeteam368-icon-item reg-log-popup-control"
+                                                                               href="https://vm.beeteam368.net/main-login/"
+                                                                               data-note="Sign in to add posts to watch later."
+                                                                               data-id="117">
+                                                                                <i class="fas fa-clock"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="beeteam368-bt-ft-img first-show flex-row-control flex-vertical-middle">
+                                                                       <span class="post-footer-item post-lt-views post-lt-views-control"
+                                                                             style="margin: 0">
+                                                                        <span class="beeteam368-icon-item small-item"
+                                                                              style="background-color: red;width: 39px; height:20px; border-radius: 5px">Live</span>
+                                                                       </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                            </div>
+                                                            <?php
+                                                            $counter++;
+                                                        }
+                                                        ?>
+=======
                                                         <div class="swiper-slide swiper-slide-visible swiper-slide-active swiper-slide-thumb-active"
                                                              style="margin-bottom: 30px;" role="group"
                                                              aria-label="1 / 8">
@@ -357,6 +558,7 @@
                                                                 </div>
                                                             </article>
                                                         </div>
+>>>>>>> main
                                                     </div>
                                                     <span class="swiper-notification" aria-live="assertive"
                                                           aria-atomic="true"></span></div>
@@ -470,4 +672,8 @@
 </div>
 <?php require('includes/scripts.php'); ?>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> main
