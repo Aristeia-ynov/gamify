@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 <?php
 require('includes/config.php');
 require('includes/global_functions.php');
 session_start();
 ?>
-=======
->>>>>>> main
 <html lang="en">
 <head>
     <title>Gamify</title>
@@ -44,7 +41,6 @@ session_start();
                                                  class="swiper slider-larger swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
                                                 <div class="swiper-wrapper" id="swiper-wrapper-5b109653102af4e772"
                                                      aria-live="polite">
-<<<<<<< HEAD
                                                     <?php
                                                     if (isset($_SESSION['id'])) {
                                                         $sql = "SELECT channel.followers_channel, channel.name_channel, channel.id_channel,
@@ -159,7 +155,6 @@ session_start();
                                                                                         <i class="icon far fa-eye"></i><span>Preview</span>
                                                                                     </button>
                                                                                 </div>
-=======
                                                     <div class="swiper-slide swiper-slide-active" style="width: 1860px;"
                                                          role="group" aria-label="1 / 8">
                                                         <article
@@ -196,19 +191,16 @@ session_start();
                                                                                         data-id="117">
                                                                                     <i class="icon far fa-eye"></i><span>Preview</span>
                                                                                 </button>
->>>>>>> main
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-<<<<<<< HEAD
                                                             </article>
                                                         </div>
                                                         <?php
                                                         $counter++;
                                                     }
                                                     ?>
-=======
                                                             </div>
                                                         </article>
                                                     </div>
@@ -344,7 +336,6 @@ session_start();
                                                             </div>
                                                         </article>
                                                     </div>
->>>>>>> main
                                                 </div>
                                                 <span class="swiper-notification" aria-live="assertive"
                                                       aria-atomic="true"></span></div>
@@ -354,7 +345,6 @@ session_start();
                                                     <div class="swiper-wrapper"
                                                          style="transform: translate3d(0px, 0px, 0px);"
                                                          id="swiper-wrapper-6bb2302f63dafadd" aria-live="polite">
-<<<<<<< HEAD
                                                         <!--           TODO:    Add sql loop here for mini slider on the right                                         -->
                                                         <?php
                                                         $sql = "SELECT channel.name_channel, channel.id_channel, stream.id_stream, stream.name_stream
@@ -420,7 +410,6 @@ session_start();
                                                             $counter++;
                                                         }
                                                         ?>
-=======
                                                         <div class="swiper-slide swiper-slide-visible swiper-slide-active swiper-slide-thumb-active"
                                                              style="margin-bottom: 30px;" role="group"
                                                              aria-label="1 / 8">
@@ -558,7 +547,6 @@ session_start();
                                                                 </div>
                                                             </article>
                                                         </div>
->>>>>>> main
                                                     </div>
                                                     <span class="swiper-notification" aria-live="assertive"
                                                           aria-atomic="true"></span></div>
@@ -672,8 +660,5 @@ session_start();
 </div>
 <?php require('includes/scripts.php'); ?>
 </body>
-<<<<<<< HEAD
 </html>
-=======
 </html>
->>>>>>> main
