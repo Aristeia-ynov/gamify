@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         ## First of all
-        1. Please search for [existing issues](https://github.com/aristeia/gamify) about this problem first.
+        1. Please search for [existing issues](https://github.com/Aristeia-ynov/gamify/discussions/2) about this problem first.
         2. Make sure it's an issue with Gamify and not something else you are using.
 
   - type: textarea
