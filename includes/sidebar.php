@@ -225,13 +225,6 @@
 <svg><polyline class="lm-back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline> <polyline class="lm-front"
                                                                                           points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline></svg>
 </span>
-</span>
-                                    </button>
-                                </nav>
-                                <?php
-                            }
-                        }
-                            </button>
                         </nav>
                         <?php
                             }
