@@ -2,6 +2,13 @@ name: backup db
 on:
   schedule:
     - cron: "0 0 * * *" # every day  At 12:00 AM 
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+  
 jobs:
   build:
     name: Build
