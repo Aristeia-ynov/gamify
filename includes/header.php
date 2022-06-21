@@ -51,7 +51,10 @@
 <span class="beeteam368-suggestion-item-title h6 font-weight-bold">Please enter a search term in the search box.</span>
 </span>
                                 </a>
-
+                                <div class="beeteam368-sg-new-posts beeteam368-live-search-control">
+                                    <h5 class="beeteam368-sg-new-posts-heading sg-heading-default">Search</h5>
+                                    <h5 class="beeteam368-sg-new-posts-heading sg-heading-dynamic">Search</h5>
+                                </div>
                                 <div class="beeteam368-sg-new-posts beeteam368-live-search-control">
                                     <h5 class="beeteam368-sg-new-posts-heading sg-heading-default">Do Not Miss</h5>
                                     <h5 class="beeteam368-sg-new-posts-heading sg-heading-dynamic">Search
