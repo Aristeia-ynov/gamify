@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 <?php
 require('config.php');
 ?>
->>>>>>> main
 <header id="beeteam368-site-header"
         class="beeteam368-site-header beeteam368-site-header-control flex-row-control beeteam368-h-poppy">
     <div class="beeteam368-top-menu">
@@ -30,11 +27,8 @@ require('config.php');
                     <div class="beeteam368-searchbox-wrap beeteam368-searchbox-wrap-control flex-row-control flex-vertical-middle ">
                         <form action="search.php" method="get" class="beeteam368-searchform" style="margin: auto">
                             <input id="beeteam368-searchtext"
-<<<<<<< HEAD
                                    class="beeteam368-searchtext beeteam368-searchtext-control seach-area" autocomplete="off"
-=======
                                    class="beeteam368-searchtext beeteam368-searchtext-control" autocomplete="off"
->>>>>>> main
                                    type="text" placeholder="Search ..." name="s" value="">
                             <span class="beetam368-back-focus beetam368-back-focus-control flex-row-control flex-vertical-middle flex-row-center"><i
                                         class="fas fa-arrow-left"></i></span>
@@ -61,14 +55,11 @@ require('config.php');
 <span class="beeteam368-suggestion-item-title h6 font-weight-bold">Please enter a search term in the search box.</span>
 </span>
                                 </a>
-<<<<<<< HEAD
                                 <div class="beeteam368-sg-new-posts beeteam368-live-search-control">
                                     <h5 class="beeteam368-sg-new-posts-heading sg-heading-default">Search</h5>
                                     <h5 class="beeteam368-sg-new-posts-heading sg-heading-dynamic">Search</h5>
                                 </div>
-=======
 
->>>>>>> main
                                 <div class="beeteam368-sg-new-posts beeteam368-live-search-control">
                                     <h5 class="beeteam368-sg-new-posts-heading sg-heading-default">Do Not Miss</h5>
                                     <h5 class="beeteam368-sg-new-posts-heading sg-heading-dynamic">Search
@@ -223,14 +214,12 @@ require('config.php');
                 <div class="beeteam368-main-nav site__col auto-width">
                     <ul class="flex-row-control nav-font menu-items-lyt menu-items-lyt-control flex-row-center">
                         <li id="menu-item-21"
-<<<<<<< HEAD
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-19 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-21">
                             <a href="https://vm.beeteam368.net/"><span class="lvl1-counter">Home</span></a>
                         </li>
                         <li id="menu-item-22"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22">
                             <a href="#"><span class="lvl1-counter">Stream</span></a>
-=======
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-19 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21">
                             <a href="https://vm.beeteam368.net/"><span class="lvl1-counter">Home</span></a>
                             <ul class="sub-menu beeteam368-megamenu-sub">
@@ -274,7 +263,6 @@ require('config.php');
                         <li id="menu-item-22"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22">
                             <a href="#"><span class="lvl1-counter">Video</span></a>
->>>>>>> main
                             <ul class="sub-menu beeteam368-megamenu-sub">
                                 <li id="menu-item-1090"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1090">
@@ -406,11 +394,8 @@ require('config.php');
                         </li>
                         <li id="menu-item-23"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-23">
-<<<<<<< HEAD
                             <a href="#"><span class="lvl1-counter">Video</span></a>
-=======
                             <a href="#"><span class="lvl1-counter">Audio</span></a>
->>>>>>> main
                             <ul class="sub-menu beeteam368-megamenu-sub">
                                 <li id="menu-item-1093"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1093">
@@ -452,11 +437,8 @@ require('config.php');
                         </li>
                         <li id="menu-item-65"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-65">
-<<<<<<< HEAD
                             <a href="#"><span class="lvl1-counter">Events</span></a>
-=======
                             <a href="#"><span class="lvl1-counter">Sell Media</span></a>
->>>>>>> main
                             <ul class="sub-menu beeteam368-megamenu-sub">
                                 <li id="menu-item-2090"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2090">
@@ -493,11 +475,8 @@ require('config.php');
                         </li>
                         <li id="menu-item-2579"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2579">
-<<<<<<< HEAD
                             <a href="https://vm.beeteam368.net/shop/"><span class="lvl1-counter">Blog</span></a>
-=======
                             <a href="https://vm.beeteam368.net/shop/"><span class="lvl1-counter">Shop</span></a>
->>>>>>> main
                             <ul class="sub-menu beeteam368-megamenu-sub">
                                 <li id="menu-item-2639"
                                     class="menu-item menu-item-type-post_type menu-item-object-vidmov_video menu-item-2639">
@@ -556,9 +535,8 @@ require('config.php');
                                 </li>
                             </ul>
                         </li>
-<<<<<<< HEAD
-=======
-                        <li id="menu-item-67"
+
+                            <li id="menu-item-67"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-67">
                             <a href="#"><span class="lvl1-counter">Elements</span></a>
                             <ul class="sub-menu beeteam368-megamenu-sub">
@@ -772,8 +750,7 @@ require('config.php');
                                         Tab</a></li>
                             </ul>
                         </li>
->>>>>>> main
-                        <li id="menu-item-66"
+                <li id="menu-item-66"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-66 beeteam368-megamenu beeteam368-megamenu-control ready-loaded">
                             <a href="#"><span class="lvl1-counter">Mega Menu</span></a>
                             <ul class="sub-menu beeteam368-megamenu-sub">
@@ -2688,33 +2665,27 @@ require('config.php');
                 </div>
                 <?php
                 if (isset($_SESSION['id'])) {
-<<<<<<< HEAD
                     $fileName = $_SERVER["DOCUMENT_ROOT"] . "/GameFy/" . PATH_IMG_USER . $_SESSION['id'] . ".jpeg";
                     if (file_exists($fileName)) {
                         $path = PATH_IMG_USER . $_SESSION['id'] . ".jpeg";
                     } else {
                         $path = "https://secure.gravatar.com/avatar/83232f25bace98c04afdba2ef9eedd8d?s=61&d=mm&r=g";
                     }
-=======
                     if ($_SESSION['image_path'] == null){
                         $path = "https://secure.gravatar.com/avatar/83232f25bace98c04afdba2ef9eedd8d?s=61&d=mm&r=g";
                     }
                     else{
                         $path = PATH_IMG . $_SESSION['image_path'];
                     }
->>>>>>> main
                     ?>
                     <div class="beeteam368-social-account-sub-login-nav site__col auto-width">
                         <div class="beeteam368-social-account-wrap flex-row-control">
                             <div class="beeteam368-icon-item beeteam368-is-login-member tooltip-style left-item beeteam368-dropdown-items beeteam368-dropdown-items-control">
                                 <img alt="Author Avatar"
-<<<<<<< HEAD
                                      src="<?php echo $path ?>"
                                      srcset="<?php echo $path ?>"
-=======
                                      src="<?php echo $path?>"
                                      srcset="<?php echo $path?>"
->>>>>>> main
                                      class="author-avatar" style="width: 28px; height: 28px;"> <span
                                         class="tooltip-text">Click to open</span>
                                 <div class="beeteam368-icon-dropdown beeteam368-icon-dropdown-control">
@@ -2722,26 +2693,20 @@ require('config.php');
                                         <a href="#"
                                            class="author-avatar-wrap" title="<?php echo $_SESSION['username']; ?>">
                                             <img alt="Author Avatar"
-<<<<<<< HEAD
                                                  src="<?php echo $path ?>"
                                                  sizes="(max-width: 61px) 100vw, 61px"
                                                  srcset="<?php echo $path ?>"
-=======
                                                  src="<?php echo $path?>"
                                                  sizes="(max-width: 61px) 100vw, 61px"
                                                  srcset="<?php echo $path?>"
->>>>>>> main
                                                  class="author-avatar" width="61" height="61"> </a>
                                         <div class="author-avatar-name-wrap">
                                             <h4 class="author-avatar-name max-1line">
                                                 <!--TODO change href-->
                                                 <a href="#"
-<<<<<<< HEAD
                                                    class="author-avatar-name-link"
                                                    title="<?php echo $_SESSION['username']; ?>">
-=======
                                                    class="author-avatar-name-link" title="<?php echo $_SESSION['username']; ?>">
->>>>>>> main
                                                     <i class="far fa-user-circle author-verified"></i><span><?php echo $_SESSION['username']; ?></span>
                                                 </a>
                                             </h4>
@@ -2825,8 +2790,4 @@ require('config.php');
             </div>
         </div>
     </div>
-<<<<<<< HEAD
 </header>
-=======
-</header>
->>>>>>> main
