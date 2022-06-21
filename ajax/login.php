@@ -14,16 +14,13 @@ if ($username == "" or $password == "" or $username == null or $password == null
     $json['error'] = "Please fill both fields!";
     die(json_encode($json));
 }
-<<<<<<< HEAD
+
 // Commented since in this project the login is by username and not email
-=======
->>>>>>> main
 //if (!filter_var($username, FILTER_VALIDATE_EMAIL)) { // If email is not in the right format
 //    $json['error'] = "Please enter a valid Email!";
 //    die(json_encode($json));
 //}
 
-<<<<<<< HEAD
 if (isset($captchaResponse) && !empty($captchaResponse)) { // Check if Captcha is checked
     //Site secret key
     $secret = "6Lcb2w0gAAAAABsJbFlp9zO2wpCZeHAbm-tNlMzG";
@@ -38,7 +35,6 @@ if (isset($captchaResponse) && !empty($captchaResponse)) { // Check if Captcha i
     $json['error'] = "Please check the Captcha checkbox!";
     die(json_encode($json));
 }
-=======
 //if (isset($captchaResponse) && !empty($captchaResponse)) { // Check if Captcha is checked
 //    //Site secret key
 //    $secret = "6Lcb2w0gAAAAABsJbFlp9zO2wpCZeHAbm-tNlMzG";
@@ -53,7 +49,6 @@ if (isset($captchaResponse) && !empty($captchaResponse)) { // Check if Captcha i
 //    $json['error'] = "Please check the Captcha checkbox!";
 //    die(json_encode($json));
 //}
->>>>>>> main
 
 $sql = "SELECT salt_user, password_user FROM user where username_user = '$username'";
 $credentials = odbc_fetch_object(odbc_exec($con, $sql)); // Get the salt and password from database
@@ -79,10 +74,7 @@ $_SESSION['username'] = $user->username_user;
 $_SESSION['email'] = $user->email_user;
 $_SESSION['is_admin'] = $user->is_admin_user;
 $_SESSION['is_active'] = $user->is_active_user;
-<<<<<<< HEAD
-=======
 $_SESSION['image_path'] = $user->path_image_user;
->>>>>>> main
 if ($user->is_banned_user == "1"){
     $json['error'] = "We are sorry to inform you that you have been banned from our platform!";
     session_unset();
