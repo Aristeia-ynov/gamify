@@ -1,16 +1,11 @@
 /*!
  * Waves v0.7.6
-<<<<<<< HEAD
  * http://fian.my.id/Waves
  *
  * Copyright 2014-2018 Alfiana E. Sibuea and other contributors
  * Released under the MIT license
-=======
  * http://fian.my.id/Waves
  *
- * Copyright 2014-2018 Alfiana E. Sibuea and other contributors
- * Released under the MIT license
->>>>>>> main
  * https://github.com/fians/Waves/blob/master/LICENSE */
 
 .waves-effect {
@@ -26,11 +21,7 @@
 }
 
 .waves-effect .waves-ripple {
-<<<<<<< HEAD
 
-=======
-
->>>>>>> main
 }
 .waves-notransition {
     -webkit-transition: none!important;
@@ -114,8 +105,4 @@
 
 .waves-block {
     display: block
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> main
