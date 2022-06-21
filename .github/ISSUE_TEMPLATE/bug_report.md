@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         ## First of all
-        1. Please search for [existing issues]([https://github.com/aristeria](https://github.com/Aristeia-ynov/gamify) about this problem first.
+        1. Please search for [existing issues](https://github.com/spacedriveapp/spacedrive/issues?q=is%3Aissue) about this problem first.
         2. Make sure you run have the latest version of Rust (`rustup update`) and PNPM (`pnpm add -g pnpm`) along with all relevant Spacedrive dependencies.
         3. Make sure it's an issue with Spacedrive and not something else you are using.
         4. Remember to follow our community guidelines and be friendly.
