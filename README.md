@@ -1,7 +1,4 @@
 # GameFy
-<<<<<<< HEAD
- Live Streaming Plateform
-=======
  Live Streaming Platform
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/0/aPp3s_phTK2iX93I2s-1TA/recent-activity/19a150311ed191748e9d57e3dca9d02e_badge.svg)](https://repography.com)
@@ -99,4 +96,3 @@
 ```
 
 11 directories, 63 files
->>>>>>> main
