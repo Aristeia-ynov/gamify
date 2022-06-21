@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GameFy
  Live Streaming Platform
 
@@ -19,11 +18,7 @@
 # Folder Structure
 
 ```bash
-=======
-# H
 
-``` bash
->>>>>>> 84fdc6745de11aea895cbdeb5758fef3f3add14f
 .
 ├── LICENSE
 ├── README.md
@@ -103,8 +98,4 @@
 
 ```
 
-<<<<<<< HEAD
-11 directories, 64 files
-=======
 11 directories, 65 files
->>>>>>> 84fdc6745de11aea895cbdeb5758fef3f3add14f
