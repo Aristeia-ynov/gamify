@@ -1,17 +1,18 @@
 # GameFy
  Live Streaming Platform
 
-## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/0/yKh5ZncbSBqLIV5vGzwSmg/recent-activity/bfc0775e65c336755d16f2f6f994b56d_badge.svg)](https://repography.com)
-[![Timeline graph](https://images.repography.com/0/yKh5ZncbSBqLIV5vGzwSmg/recent-activity/bfc0775e65c336755d16f2f6f994b56d_timeline.svg)](https://github.com/_/gamify/commits)
-[![Issue status graph](https://images.repography.com/0/yKh5ZncbSBqLIV5vGzwSmg/recent-activity/bfc0775e65c336755d16f2f6f994b56d_issues.svg)](https://github.com/_/gamify/issues)
-[![Pull request status graph](https://images.repography.com/0/yKh5ZncbSBqLIV5vGzwSmg/recent-activity/bfc0775e65c336755d16f2f6f994b56d_prs.svg)](https://github.com/_/gamify/pulls)
-[![Trending topics](https://images.repography.com/0/yKh5ZncbSBqLIV5vGzwSmg/recent-activity/bfc0775e65c336755d16f2f6f994b56d_words.svg)](https://github.com/_/gamify/commits)
+## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/recent-activity/3ffcc96d1892e7dee47960973a4bf2be_badge.svg)](https://repography.com)
+[![Timeline graph](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/recent-activity/3ffcc96d1892e7dee47960973a4bf2be_timeline.svg)](https://github.com/_/gamify/commits)
+[![Issue status graph](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/recent-activity/3ffcc96d1892e7dee47960973a4bf2be_issues.svg)](https://github.com/_/gamify/issues)
+[![Pull request status graph](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/recent-activity/3ffcc96d1892e7dee47960973a4bf2be_prs.svg)](https://github.com/_/gamify/pulls)
+[![Trending topics](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/recent-activity/3ffcc96d1892e7dee47960973a4bf2be_words.svg)](https://github.com/_/gamify/commits)
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Structure
-[![Structure](https://images.repography.com/0/yKh5ZncbSBqLIV5vGzwSmg/structure/ffc6aeb0168772b526f1eb48617f7844_table.svg)](https://github.com/_/gamify)
+[![Structure](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/structure/a9beec4580d8062eaefe89248a16391a_table.svg)](https://github.com/_/gamify)
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Top contributors
-[![Top contributors](https://images.repography.com/0/yKh5ZncbSBqLIV5vGzwSmg/top-contributors/bfc0775e65c336755d16f2f6f994b56d_table.svg)](https://github.com/_/gamify/graphs/contributors)
+[![Top contributors](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/top-contributors/3ffcc96d1892e7dee47960973a4bf2be_table.svg)](https://github.com/_/gamify/graphs/contributors)
+
 
 ## Folder Structure
 
