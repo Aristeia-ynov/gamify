@@ -44,10 +44,6 @@ COPY src/php/cli/conf/*.ini /usr/local/etc/php/conf.d/
 COPY src/php/utils/install-shush /usr/local/bin/
 RUN install-shush && rm -rf /usr/local/bin/install-shush
 
-# Install composer
-COPY src/php/utils/install-composer /usr/local/bin/
-RUN install-composer && rm -rf /usr/local/bin/install-composer
-
 STOPSIGNAL SIGTERM
 
 ENTRYPOINT ["/usr/local/bin/shush", "exec", "docker-php-entrypoint"]
