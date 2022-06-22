@@ -1,63 +1,19 @@
-# syntax=docker/dockerfile:experimental
-FROM php:7.2-cli-alpine3.7 as cli
+FROM composer:1.9.3 as vendor
 
-# Add usabilla user and group
-RUN set -x \
-    && addgroup -g 1000 app \
-    && adduser -u 1000 -D -G app app \
+WORKDIR /tmp/
 
-    # Temporary fix: pulls in the aports patch for https://bugs.alpinelinux.org/issues/10648
-    && apk add --no-cache --upgrade apk-tools
+COPY composer.json composer.json
+COPY composer.lock composer.lock
 
-# Install docker help scripts
-COPY src/php/utils/docker/ /usr/local/bin/
+RUN composer install \
+    --ignore-platform-reqs \
+    --no-interaction \
+    --no-plugins \
+    --no-scripts \
+    --prefer-dist
 
-# Install PHP extensions
-# hadolint ignore=DL4006
-RUN set -x \
-    # Adding sodium purely for the 7.1 image, it's already in 7.2 and up: https://www.php.net/manual/en/sodium.installation.php \
-    && apk add --no-cache wget \
-    && if [ $(php -v | grep "PHP 7.1" | wc -l) != 0 ] ; then apk add --no-cache libsodium-dev; else true; fi \
-    && apk add --no-cache --virtual .phpize-deps $PHPIZE_DEPS \
-    && docker-php-ext-install pcntl opcache \
-    && pecl install apcu \
-    && if [ $(php -v | grep "PHP 7.1" | wc -l) != 0 ] ; then pecl install libsodium; else true; fi \
-    && pecl clear-cache \
-    && docker-php-ext-enable apcu \
-    && docker-php-ext-enable sodium \
-    # Removing all PHP leftovers since the helper scripts nor the official image are removing them
-    && docker-php-source-tarball clean && rm /usr/local/bin/php-cgi && rm /usr/local/bin/phpdbg && rm -rf /tmp/pear ~/.pearrc \
-    && apk del .phpize-deps \
 
-    # Patch CVE-2018-14618 (curl), CVE-2018-16842 (libxml2), CVE-2019-11068 (libxslt)
-    && apk upgrade --no-cache curl libxml2 libxslt \
+FROM php:7.2-apache-stretch
 
-    # Create a symlink to the recommended production configuration
-    # ref: https://github.com/docker-library/docs/tree/master/php#configuration
-    && ln -s $PHP_INI_DIR/php.ini-production $PHP_INI_DIR/php.ini
-
-COPY src/gpg /usr/local/etc/gpg
-COPY src/php/conf/ /usr/local/etc/php/conf.d/
-COPY src/php/cli/conf/*.ini /usr/local/etc/php/conf.d/
-
-# Install shush
-COPY src/php/utils/install-shush /usr/local/bin/
-RUN install-shush && rm -rf /usr/local/bin/install-shush
-
-STOPSIGNAL SIGTERM
-
-ENTRYPOINT ["/usr/local/bin/shush", "exec", "docker-php-entrypoint"]
-
-# Base images don't need healthcheck since they are not running applications
-# this can be overriden in the child images
-HEALTHCHECK NONE
-
-## CLI-DEV STAGE ##
-FROM cli as cli-dev
-
-# Install Xdebug and development specific configuration
-RUN docker-php-dev-mode xdebug \
-    && docker-php-dev-mode config
-
-# Change entrypoint back to the default because we don't need shush in development
-ENTRYPOINT ["docker-php-entrypoint"]
+COPY . /var/www/html
+COPY --from=vendor /tmp/vendor/ /var/www/html/vendor/
