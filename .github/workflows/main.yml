@@ -3,15 +3,22 @@ on:
   push:
       branches:
         - main
+  
+  workflow_dispatch:
+  
 jobs:
-  build:
+  Login-Azure:
     runs-on: self-hosted
     steps:            
     - name: "Login to Azure"
       uses: Azure/login@v1
-    - name: "Upload Static Content to Storage"
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+    - name: "Login and do something"
       uses: azure/CLI@v1
       with:
         azcliversion: 2.24.2
         inlineScript: |
-                    az group list
+          az login --identity
+          cd /var/www/html/gamify
+          git pull origin main 
