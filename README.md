@@ -23,6 +23,7 @@
 .
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
+├── Dockerfile
 ├── LICENSE
 ├── README.md
 ├── SECURITY.md
@@ -79,9 +80,7 @@
 │   │   ├── loader_dark_moder.gif
 │   │   ├── mainIcon.png
 │   │   ├── mainLogo.png
-│   │   ├── secondLogo.png
-│   │   └── user_image
-│   │       └── profil_picture_user1.jpeg
+│   │   └── secondLogo.png
 │   └── js
 │       ├── lib
 │       │   └── jquery.js
@@ -89,6 +88,7 @@
 │       ├── main.js
 │       └── vendor
 │           └── swiper.js
+├── azure-pipelines.yml
 ├── includes
 │   ├── config.php
 │   ├── footer.php
@@ -98,8 +98,6 @@
 │   ├── scripts.php
 │   └── sidebar.php
 ├── index.php
-├── list.md
-├── list2.md
 ├── login-registration.php
 ├── logout.php
 ├── pull_request_template.md
@@ -110,4 +108,4 @@
 
 ```
 
-11 directories, 74 files
+11 directories, 73 files
