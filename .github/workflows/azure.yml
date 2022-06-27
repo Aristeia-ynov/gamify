@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   
 jobs:
-  build:
+  Login-Azure:
     runs-on: self-hosted
     steps:            
     - name: "Login to Azure"
