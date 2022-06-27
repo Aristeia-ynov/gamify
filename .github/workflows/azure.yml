@@ -14,9 +14,10 @@ jobs:
       uses: Azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
-    - name: "Upload Static Content to Storage"
+    - name: "Login and do something"
       uses: azure/CLI@v1
       with:
         azcliversion: 2.24.2
         inlineScript: |
-                    az group list
+          az login --identity
+          az group list   
