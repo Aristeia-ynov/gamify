@@ -19,5 +19,8 @@ jobs:
       with:
         azcliversion: 2.24.2
         inlineScript: |
-          az login --identity
-          pwd
+          az vm run-command invoke \
+          -g myResourceGroup \
+          -n myVM \
+          --command-id RunShellScript \
+          --scripts "sudo apt-get update && cd /var/www/html/gamify && pwd && ls -lah"
