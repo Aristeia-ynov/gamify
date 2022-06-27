@@ -1,4 +1,4 @@
-name: Azure CLI Login Tests
+name: Azure CLI with git clone Tests
 on: 
   push:
       branches:
