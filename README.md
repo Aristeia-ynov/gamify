@@ -3,17 +3,18 @@
 
 # Repography
 
-## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/recent-activity/3ffcc96d1892e7dee47960973a4bf2be_badge.svg)](https://repography.com)
-[![Timeline graph](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/recent-activity/3ffcc96d1892e7dee47960973a4bf2be_timeline.svg)](https://github.com/_/gamify/commits)
-[![Issue status graph](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/recent-activity/3ffcc96d1892e7dee47960973a4bf2be_issues.svg)](https://github.com/_/gamify/issues)
-[![Pull request status graph](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/recent-activity/3ffcc96d1892e7dee47960973a4bf2be_prs.svg)](https://github.com/_/gamify/pulls)
-[![Trending topics](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/recent-activity/3ffcc96d1892e7dee47960973a4bf2be_words.svg)](https://github.com/_/gamify/commits)
+## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/24819915/Crushoverride007/gamify/recent-activity/899bac83daa4f882d8b1768f2fd16ef5_badge.svg)](https://repography.com)
+[![Timeline graph](https://images.repography.com/24819915/Crushoverride007/gamify/recent-activity/899bac83daa4f882d8b1768f2fd16ef5_timeline.svg)](https://github.com/Crushoverride007/gamify/commits)
+[![Issue status graph](https://images.repography.com/24819915/Crushoverride007/gamify/recent-activity/899bac83daa4f882d8b1768f2fd16ef5_issues.svg)](https://github.com/Crushoverride007/gamify/issues)
+[![Pull request status graph](https://images.repography.com/24819915/Crushoverride007/gamify/recent-activity/899bac83daa4f882d8b1768f2fd16ef5_prs.svg)](https://github.com/Crushoverride007/gamify/pulls)
+[![Trending topics](https://images.repography.com/24819915/Crushoverride007/gamify/recent-activity/899bac83daa4f882d8b1768f2fd16ef5_words.svg)](https://github.com/Crushoverride007/gamify/commits)
+
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Structure
-[![Structure](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/structure/a9beec4580d8062eaefe89248a16391a_table.svg)](https://github.com/_/gamify)
+[![Structure](https://images.repography.com/24819915/Crushoverride007/gamify/structure/6528811e8b2d03c0021fd6fc5d620396_table.svg)](https://github.com/Crushoverride007/gamify)
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Top contributors
-[![Top contributors](https://images.repography.com/0/8gXJgR7pSR-4-4OfmPteaQ/top-contributors/3ffcc96d1892e7dee47960973a4bf2be_table.svg)](https://github.com/_/gamify/graphs/contributors)
+[![Top contributors](https://images.repography.com/24819915/Crushoverride007/gamify/top-contributors/899bac83daa4f882d8b1768f2fd16ef5_table.svg)](https://github.com/Crushoverride007/gamify/graphs/contributors)
 
 
 ## Folder Structure
